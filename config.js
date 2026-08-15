@@ -1,1 +1,4 @@
-const CONFIG={webAppUrl:''};
+const CONFIG = {
+  webAppUrl: "",
+  keithChampionName: "Keith"
+};

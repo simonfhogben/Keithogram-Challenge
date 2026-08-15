@@ -1,1 +1,63 @@
-<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>The Keithogram Challenge</title><link rel="stylesheet" href="style.css"></head><body class="dark"><header><h1>The Keithogram Challenge</h1><p>Keith of Alderney: puzzle champion, maritime enthusiast and bacon sandwich connoisseur.</p></header><div class="controls"><button id="theme">Light/Dark</button><button id="inc">A+</button><button id="dec">A-</button><button id="tea">Tea-Time Mode</button></div><div id="teaMsg"></div><section><label>Player</label><input id="player"><button id="savePlayer">Save</button><select id="players"></select></section><section><h2 id="quizTitle"></h2><div id="keithism"></div><div id="quiz"></div><button id="prev">Previous Keithogram</button><button id="next">Next Keithogram</button><button id="rand">Random Keithogram</button></section><section><h2>Keith's League Table</h2><table id="league"></table></section><section><h2>Admiralty Board</h2><table id="admiralty"></table></section><script src="config.js"></script><script src="keithograms.js"></script><script src="app.js"></script></body></html>
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Thirty British cryptic-style Keithograms with maritime bonus rounds.">
+  <title>The Keithogram Challenge</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip-link" href="#quiz">Skip to puzzle</a>
+<header class="masthead">
+  <div class="kicker">Alderney's independent journal of puzzling excellence</div>
+  <div class="brand-row"><span aria-hidden="true" class="crest">⚓</span><div><h1>The Keithogram Challenge</h1><p>Thirty puzzles. One reigning champion. Bacon strictly performance-related.</p></div></div>
+  <blockquote id="keithism" aria-live="polite"></blockquote>
+</header>
+<nav class="toolbar" aria-label="Display settings">
+  <button id="themeBtn" type="button">☀ Light mode</button>
+  <button id="fontDown" type="button" aria-label="Decrease font size">A−</button>
+  <button id="fontUp" type="button" aria-label="Increase font size">A+</button>
+  <button id="teaBtn" type="button">☕ Tea-Time Mode</button>
+</nav>
+<main>
+  <section class="card player-card" aria-labelledby="playerHeading">
+    <h2 id="playerHeading">Player's Book</h2>
+    <label for="existingPlayer">Returning player</label>
+    <select id="existingPlayer"><option value="">Select a name</option></select>
+    <span class="or">or</span>
+    <label for="newPlayer">Enter new name</label>
+    <input id="newPlayer" maxlength="40" autocomplete="name">
+    <button id="usePlayer" type="button">Use this name</button>
+    <p id="activePlayer" class="status" aria-live="polite">No player selected.</p>
+  </section>
+
+  <section id="quiz" class="card puzzle-card" tabindex="-1">
+    <div class="issue-line"><span id="difficulty"></span><span id="progress"></span></div>
+    <h2 id="quizTitle"></h2>
+    <form id="quizForm">
+      <div id="mainClues"></div>
+      <div class="bonus-heading"><span aria-hidden="true">⚓</span><h3>Admiral Keith's Bonus Round</h3></div>
+      <div id="bonusClues"></div>
+      <div class="quiz-actions">
+        <button class="primary" type="submit">Mark this Keithogram</button>
+        <button id="revealBtn" type="button">Reveal answers</button>
+        <button id="resetBtn" type="button">Clear answers</button>
+      </div>
+    </form>
+    <section id="result" class="result" hidden aria-live="polite"></section>
+    <div class="navigation">
+      <button id="prevBtn" type="button">← Previous Keithogram</button>
+      <button id="randomBtn" type="button">Random Keithogram</button>
+      <button id="nextBtn" type="button">Next Keithogram →</button>
+    </div>
+  </section>
+
+  <section class="card"><h2>Keith's League Table</h2><p id="championship"></p><div class="table-wrap"><table id="league"><thead><tr><th>Rank</th><th>Name</th><th>Completed</th><th>Average %</th><th>Best %</th><th>Perfect Scores</th></tr></thead><tbody></tbody></table></div></section>
+  <section class="card"><h2>Admiralty Board</h2><div class="table-wrap"><table id="admiralty"><thead><tr><th>Rank</th><th>Name</th><th>Maritime Score</th><th>Title</th></tr></thead><tbody></tbody></table></div></section>
+  <section class="card"><h2>Recent Activity</h2><div class="table-wrap"><table id="activity"><thead><tr><th>Player</th><th>Quiz</th><th>Score</th><th>Date</th></tr></thead><tbody></tbody></table></div></section>
+</main>
+<div id="toast" role="status" aria-live="polite"></div>
+<footer><p>Made for Keith, who is very much alive and probably already on clue ten.</p><p>Scores remain in this browser unless the optional shared scoreboard is configured.</p></footer>
+<script src="config.js"></script><script src="keithograms.js"></script><script src="app.js"></script>
+</body></html>
