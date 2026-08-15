@@ -1,0 +1,1 @@
+function doPost(e){var s=SpreadsheetApp.getActive().getSheetByName("Scores");var d=JSON.parse(e.postData.contents);s.appendRow([new Date(),d.Name,d.QuizId,d.QuizTitle,d.Score,d.Total,d.Percentage,d.Maritime,d.MaritimeTotal]);return ContentService.createTextOutput(JSON.stringify({ok:true})).setMimeType(ContentService.MimeType.JSON);}
