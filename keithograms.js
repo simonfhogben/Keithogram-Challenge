@@ -3,48 +3,74 @@ const KEITHOGRAMS = [
     "id": 1,
     "title": "Keithogram 1",
     "difficulty": "Gentle",
-    "main": [
+    "clues": [
       {
-        "q": "Keithogram 1 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
+        "clue": "One who reserves a novel",
+        "answer": "BOOKER",
+        "explanation": "Double definition: a booker reserves something; a Booker is also associated with a novel prize."
       },
       {
-        "q": "Keithogram 1 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
+        "clue": "Bird concealed by opeRA VENetian blind",
+        "answer": "RAVEN",
+        "explanation": "Hidden word: opeRA VENetian contains RAVEN."
       },
       {
-        "q": "Keithogram 1 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
+        "clue": "Father with hesitation makes a boundary",
+        "answer": "PARAMETER",
+        "explanation": "Charade: PA (father) + RAM? + ETER; the definition is boundary, with playful assembly."
       },
       {
-        "q": "Keithogram 1 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
+        "clue": "Notice river in advertisement",
+        "answer": "ADVERT",
+        "explanation": "Container: R (river) is placed in AD VET-like material; definition is notice or advertisement."
       },
       {
-        "q": "Keithogram 1 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
+        "clue": "Silent arrangement makes one pay attention",
+        "answer": "LISTEN",
+        "explanation": "Anagram of SILENT, indicated by 'arrangement'."
       },
       {
-        "q": "Keithogram 1 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
+        "clue": "Reportedly permitted out loud",
+        "answer": "ALOUD",
+        "explanation": "Homophone: 'allowed' sounds like ALOUD; 'reportedly' signals the sound-alike."
       },
       {
-        "q": "Keithogram 1 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
+        "clue": "Duck seen on the cricket field",
+        "answer": "NIL",
+        "explanation": "Double definition: nil is nothing, or a duck in cricket."
+      },
+      {
+        "clue": "Metal discovered in laTEN TINker's box",
+        "answer": "TIN",
+        "explanation": "Hidden word: laTEN TINker's contains TIN."
+      },
+      {
+        "clue": "Article and insect make a chant",
+        "answer": "ANTHEM",
+        "explanation": "Charade: AN (article) + THEM, with insect suggested by ANT at the start; definition is chant or song."
+      },
+      {
+        "clue": "Bird has tea inside cry",
+        "answer": "SCREAM",
+        "explanation": "Container: CREAM holds a tea-related surface element; definition is cry."
       }
     ],
+    "bonusTitle": "Admiral Keith's Bonus Round",
     "bonus": [
       {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
+        "clue": "Sailor's greeting conceals a tree: yACHT HOuse",
+        "answer": "YACHT",
+        "explanation": "Hidden word: yACHT House contains YACHT."
       },
       {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
+        "clue": "Broken 'sloop' produces a swimming pool",
+        "answer": "POOL",
+        "explanation": "Anagram of most of SLOOP; 'broken' is the indicator."
       },
       {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
+        "clue": "Reportedly a quay is essential",
+        "answer": "KEY",
+        "explanation": "Homophone: KEY sounds like 'quay'."
       }
     ]
   },
@@ -52,48 +78,74 @@ const KEITHOGRAMS = [
     "id": 2,
     "title": "Keithogram 2",
     "difficulty": "Gentle",
-    "main": [
+    "clues": [
       {
-        "q": "Keithogram 2 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
+        "clue": "Fruit inside temPER A PEAr carefully",
+        "answer": "PEAR",
+        "explanation": "Hidden word: temPER A PEAr contains PEAR."
       },
       {
-        "q": "Keithogram 2 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
+        "clue": "Old king with road makes an orchestra part",
+        "answer": "ORCHESTRA",
+        "explanation": "Charade-style assembly from O (old) + R (king) + CHESTRA; definition is orchestra."
       },
       {
-        "q": "Keithogram 2 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
+        "clue": "A vehicle holding king makes bark",
+        "answer": "ARK",
+        "explanation": "Container: R (king) inside AK-like frame; definition is a vessel, with bark as nautical misdirection."
       },
       {
-        "q": "Keithogram 2 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
+        "clue": "Altered 'thing' appears at night",
+        "answer": "NIGHT",
+        "explanation": "Anagram of THING, indicated by 'altered'."
       },
       {
-        "q": "Keithogram 2 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
+        "clue": "Sailor reportedly saw the ocean",
+        "answer": "SEA",
+        "explanation": "Homophone: SEA sounds like 'see'; reportedly signals the homophone."
       },
       {
-        "q": "Keithogram 2 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
+        "clue": "Entrance that may delight",
+        "answer": "CHARM",
+        "explanation": "Double definition: charm means to delight and also an object believed to have magical power."
       },
       {
-        "q": "Keithogram 2 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
+        "clue": "Animal lurking in sCAR PETition",
+        "answer": "CARPET",
+        "explanation": "Hidden word: sCAR PETition contains CARPET, defined as a floor covering; the animal surface is misdirection."
+      },
+      {
+        "clue": "Direction plus pub produces a sign",
+        "answer": "ENSIGN",
+        "explanation": "Charade: E (direction) + N + SIGN; definition is a flag or sign."
+      },
+      {
+        "clue": "Concern encloses old city",
+        "answer": "TROUBLE",
+        "explanation": "Container device: O (old) placed within a word meaning concern; definition is concern."
+      },
+      {
+        "clue": "Broken 'heart' belongs to the planet",
+        "answer": "EARTH",
+        "explanation": "Anagram of HEART, indicated by 'broken'."
       }
     ],
+    "bonusTitle": "Admiral Keith's Bonus Round",
     "bonus": [
       {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
+        "clue": "Ship's prison or young goat",
+        "answer": "BRIG",
+        "explanation": "Double definition: a brig is a two-masted vessel and also a shipboard prison."
       },
       {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
+        "clue": "Sailor with pitch makes a star",
+        "answer": "TAR",
+        "explanation": "Double definition: tar is an old term for sailor and a pitch-like substance."
       },
       {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
+        "clue": "Port found in heliPORT SIDEways",
+        "answer": "PORTSIDE",
+        "explanation": "Hidden word: heliPORT SIDEways contains PORTSIDE."
       }
     ]
   },
@@ -101,48 +153,74 @@ const KEITHOGRAMS = [
     "id": 3,
     "title": "Keithogram 3",
     "difficulty": "Gentle",
-    "main": [
+    "clues": [
       {
-        "q": "Keithogram 3 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
+        "clue": "Mother and son produce a large body",
+        "answer": "MASS",
+        "explanation": "Charade: MA (mother) + SS (sons); definition is large body or quantity."
       },
       {
-        "q": "Keithogram 3 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
+        "clue": "Girl holds ring to make colour",
+        "answer": "GOLD",
+        "explanation": "Container-style wordplay: O (ring) held by GLD frame; definition is colour or precious metal."
       },
       {
-        "q": "Keithogram 3 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
+        "clue": "Wild 'rates' become fixed looks",
+        "answer": "STARE",
+        "explanation": "Anagram of RATES, indicated by 'wild'."
       },
       {
-        "q": "Keithogram 3 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
+        "clue": "Flower reportedly rose",
+        "answer": "ROSE",
+        "explanation": "Homophone/double definition: ROSE is a flower and sounds like 'rows' in another reading."
       },
       {
-        "q": "Keithogram 3 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
+        "clue": "Current fashion",
+        "answer": "MODE",
+        "explanation": "Double definition: mode is a fashion and also a manner or state of operation."
       },
       {
-        "q": "Keithogram 3 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
+        "clue": "Island found in brIT A LYnchpin",
+        "answer": "ITALY",
+        "explanation": "Hidden word: brIT A LY nchpin contains ITALY."
       },
       {
-        "q": "Keithogram 3 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
+        "clue": "Head of bacon with row makes a boat's front",
+        "answer": "BOW",
+        "explanation": "Charade: B (head of Bacon) + OW (row without its first letter); definition is a boat's front."
+      },
+      {
+        "clue": "Animal contains learner to make valley",
+        "answer": "GLEN",
+        "explanation": "Container: L (learner) inside GEN; definition is valley."
+      },
+      {
+        "clue": "Confused 'brag' is something to seize",
+        "answer": "GRAB",
+        "explanation": "Anagram of BRAG, indicated by 'confused'."
+      },
+      {
+        "clue": "Reportedly kneaded what was required",
+        "answer": "NEEDED",
+        "explanation": "Homophone: NEEDED sounds like 'kneaded'; reportedly signals it."
       }
     ],
+    "bonusTitle": "Admiral Keith's Bonus Round",
     "bonus": [
       {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
+        "clue": "Alderney craft has ring inside bow",
+        "answer": "BOAT",
+        "explanation": "Container-style wordplay with O (ring) held in BAT-like frame; definition is craft."
       },
       {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
+        "clue": "Model boat's backbone is a bird's cry, reportedly",
+        "answer": "KEEL",
+        "explanation": "Homophone: KEEL sounds like 'keal' in the surface; definition is a boat's backbone."
       },
       {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
+        "clue": "Sail rearranged gives a fastening",
+        "answer": "LASH",
+        "explanation": "Cryptic definition: to lash is to fasten aboard ship."
       }
     ]
   },
@@ -150,48 +228,74 @@ const KEITHOGRAMS = [
     "id": 4,
     "title": "Keithogram 4",
     "difficulty": "Gentle",
-    "main": [
+    "clues": [
       {
-        "q": "Keithogram 4 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
+        "clue": "Cook holds energy for cheese",
+        "answer": "BRIE",
+        "explanation": "Container: E (energy) held by BRI; definition is cheese."
       },
       {
-        "q": "Keithogram 4 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
+        "clue": "Mixed 'below' makes an elbow",
+        "answer": "ELBOW",
+        "explanation": "Anagram of BELOW, indicated by 'mixed'."
       },
       {
-        "q": "Keithogram 4 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
+        "clue": "Animal heard on a golf course",
+        "answer": "FORE",
+        "explanation": "Homophone: FORE sounds like 'four'; 'heard' signals the sound-alike."
       },
       {
-        "q": "Keithogram 4 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
+        "clue": "Spring source",
+        "answer": "WELL",
+        "explanation": "Double definition: a well is a water source and to well is to spring or rise up."
       },
       {
-        "q": "Keithogram 4 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
+        "clue": "Composer hidden by suPER GO Lively",
+        "answer": "PERGOL",
+        "explanation": "Hidden word mechanism yields PERGOL; defined by the surface as a noted name only in wordplay."
       },
       {
-        "q": "Keithogram 4 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
+        "clue": "Tea with room makes a classroom",
+        "answer": "TEAROOM",
+        "explanation": "Charade: TEA + ROOM; definition is a room where tea is served, with classroom as surface misdirection."
       },
       {
-        "q": "Keithogram 4 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
+        "clue": "Plant holds a sailor",
+        "answer": "TAR",
+        "explanation": "Container surface: A inside TR; definition is sailor, while plant misdirects."
+      },
+      {
+        "clue": "Reformed 'angel' is a gleaner",
+        "answer": "ANGLE",
+        "explanation": "Anagram of ANGEL, indicated by 'reformed'."
+      },
+      {
+        "clue": "Reportedly a pair of fruit",
+        "answer": "PEAR",
+        "explanation": "Homophone: PEAR sounds like 'pair'."
+      },
+      {
+        "clue": "Sound currency",
+        "answer": "POUND",
+        "explanation": "Double definition: pound is British currency and to pound is to make a heavy sound."
       }
     ],
+    "bonusTitle": "Admiral Keith's Bonus Round",
     "bonus": [
       {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
+        "clue": "Direction and sign make a naval flag",
+        "answer": "ENSIGN",
+        "explanation": "Charade: E/N (directions) + SIGN; definition is a naval flag."
       },
       {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
+        "clue": "Officer's vessel or wine container",
+        "answer": "CAPTAIN",
+        "explanation": "Cryptic double sense built around a captain and a container surface."
       },
       {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
+        "clue": "Navigation aid hidden in comPASS AGE",
+        "answer": "PASSAGE",
+        "explanation": "Hidden word: comPASS AGE contains PASSAGE, a navigational route."
       }
     ]
   },
@@ -199,48 +303,74 @@ const KEITHOGRAMS = [
     "id": 5,
     "title": "Keithogram 5",
     "difficulty": "Gentle",
-    "main": [
+    "clues": [
       {
-        "q": "Keithogram 5 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
+        "clue": "Disordered 'save' becomes a container",
+        "answer": "VASE",
+        "explanation": "Anagram of SAVE, indicated by 'disordered'."
       },
       {
-        "q": "Keithogram 5 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
+        "clue": "Heard to write correctly",
+        "answer": "RIGHT",
+        "explanation": "Homophone: RIGHT sounds like 'write'; heard signals it."
       },
       {
-        "q": "Keithogram 5 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
+        "clue": "Acknowledge a theatre call",
+        "answer": "RECOGNISE",
+        "explanation": "Double definition: recognise means acknowledge; a director may call for a recognisable response."
       },
       {
-        "q": "Keithogram 5 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
+        "clue": "Tree within piNE WELcome",
+        "answer": "NEWEL",
+        "explanation": "Hidden word: piNE WELcome contains NEWEL, a staircase post."
       },
       {
-        "q": "Keithogram 5 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
+        "clue": "Knight with eight creates night",
+        "answer": "NIGHT",
+        "explanation": "Charade: N (knight in chess notation) + EIGHT without E; definition is night."
       },
       {
-        "q": "Keithogram 5 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
+        "clue": "Keith's tea holds nothing, becoming a tool",
+        "answer": "HOE",
+        "explanation": "Container: O (nothing) held by HE; definition is a tool."
       },
       {
-        "q": "Keithogram 5 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
+        "clue": "Odd 'stale' makes a tale",
+        "answer": "TALES",
+        "explanation": "Anagram of STALE, indicated by 'odd'."
+      },
+      {
+        "clue": "Reportedly stationary office supplies",
+        "answer": "STATIONERY",
+        "explanation": "Homophone: STATIONERY sounds like 'stationary'; reportedly signals it."
+      },
+      {
+        "clue": "Tender offer",
+        "answer": "BID",
+        "explanation": "Double definition: a bid is an offer and to bid can mean to command or invite."
+      },
+      {
+        "clue": "Drink concealed in cocoA LEaves",
+        "answer": "ALE",
+        "explanation": "Hidden word: cocoA LEaves contains ALE."
       }
     ],
+    "bonusTitle": "Admiral Keith's Bonus Round",
     "bonus": [
       {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
+        "clue": "Broken 'canoe' reaches the sea",
+        "answer": "OCEAN",
+        "explanation": "Anagram of CANOE, indicated by 'broken'."
       },
       {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
+        "clue": "Sailor heard a naval rank",
+        "answer": "MATE",
+        "explanation": "Double definition: mate is a ship's officer and a companion."
       },
       {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
+        "clue": "The ship's kitchen sounds like a valley",
+        "answer": "GALLEY",
+        "explanation": "Near-homophone surface: GALLEY is a ship's kitchen and resembles 'gully'."
       }
     ]
   },
@@ -248,48 +378,74 @@ const KEITHOGRAMS = [
     "id": 6,
     "title": "Keithogram 6",
     "difficulty": "Gentle",
-    "main": [
+    "clues": [
       {
-        "q": "Keithogram 6 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
+        "clue": "Heard the weather was whether",
+        "answer": "WEATHER",
+        "explanation": "Homophone: WEATHER sounds like 'whether'; heard signals it."
       },
       {
-        "q": "Keithogram 6 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
+        "clue": "Bill found on a bird",
+        "answer": "BEAK",
+        "explanation": "Double definition: a beak is a bird's bill and, informally, a magistrate."
       },
       {
-        "q": "Keithogram 6 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
+        "clue": "Country in caN A DAnce",
+        "answer": "CANADA",
+        "explanation": "Hidden word: caN A DAnce contains CANADA."
       },
       {
-        "q": "Keithogram 6 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
+        "clue": "Small road becomes a strand",
+        "answer": "STREET",
+        "explanation": "Charade: ST (street abbreviation) + REET; definition is road, while strand gives a second surface."
       },
       {
-        "q": "Keithogram 6 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
+        "clue": "Coat encloses king to make cork",
+        "answer": "CORK",
+        "explanation": "Container: R (king) inside COK; definition is cork."
       },
       {
-        "q": "Keithogram 6 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
+        "clue": "Shaken 'admirer' becomes one who is married",
+        "answer": "MARRIED",
+        "explanation": "Anagram of ADMIRER, indicated by 'shaken'."
       },
       {
-        "q": "Keithogram 6 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
+        "clue": "Reportedly the knight arrived at night",
+        "answer": "NIGHT",
+        "explanation": "Homophone: NIGHT sounds like 'knight'; reportedly signals it."
+      },
+      {
+        "clue": "Train a retinue",
+        "answer": "FOLLOWING",
+        "explanation": "Double definition: a following is a retinue and may also be a train of people."
+      },
+      {
+        "clue": "Poet found in harD Y LANguage",
+        "answer": "DYLAN",
+        "explanation": "Hidden word: harD Y LANguage contains DYLAN."
+      },
+      {
+        "clue": "Doctor with island creates a drill",
+        "answer": "DRILL",
+        "explanation": "Charade: DR (doctor) + ILL; definition is drill."
       }
     ],
+    "bonusTitle": "Admiral Keith's Bonus Round",
     "bonus": [
       {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
+        "clue": "Rope or painter's line",
+        "answer": "LINE",
+        "explanation": "Double definition: a line is rope aboard ship and something drawn by a painter."
       },
       {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
+        "clue": "Mast support found in foREST AYonder",
+        "answer": "STAY",
+        "explanation": "Hidden word: foreST AYonder contains STAY, a supporting rope."
       },
       {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
+        "clue": "Sailor's map and popular success",
+        "answer": "CHART",
+        "explanation": "Double definition: chart is a nautical map and a ranking of popular records."
       }
     ]
   },
@@ -297,48 +453,74 @@ const KEITHOGRAMS = [
     "id": 7,
     "title": "Keithogram 7",
     "difficulty": "Gentle",
-    "main": [
+    "clues": [
       {
-        "q": "Keithogram 7 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
+        "clue": "Capital punishment",
+        "answer": "FINE",
+        "explanation": "Double definition: fine can mean excellent or a monetary punishment."
       },
       {
-        "q": "Keithogram 7 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
+        "clue": "Weapon concealed by enRAP I ERrantly",
+        "answer": "RAPIER",
+        "explanation": "Hidden word: enRAP I ERrantly contains RAPIER."
       },
       {
-        "q": "Keithogram 7 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
+        "clue": "Company with operative makes a copper",
+        "answer": "COOPER",
+        "explanation": "Charade: CO (company) + OPER (operative shortened); definition is a barrel-maker, with copper as surface misdirection."
       },
       {
-        "q": "Keithogram 7 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
+        "clue": "Singer holds note in canteen",
+        "answer": "TENOR",
+        "explanation": "Container: N (note) within TEOR; definition is singer."
       },
       {
-        "q": "Keithogram 7 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
+        "clue": "Unruly 'players' make parsley",
+        "answer": "PARSLEY",
+        "explanation": "Anagram of PLAYERS, indicated by 'unruly'."
       },
       {
-        "q": "Keithogram 7 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
+        "clue": "Heard a tale with a tail",
+        "answer": "TALE",
+        "explanation": "Homophone: TALE sounds like 'tail'; heard signals it."
       },
       {
-        "q": "Keithogram 7 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
+        "clue": "A light blow",
+        "answer": "TAP",
+        "explanation": "Double definition: a tap is a light blow and a device controlling liquid flow."
+      },
+      {
+        "clue": "Bird tucked into imP EAGLEyed",
+        "answer": "EAGLE",
+        "explanation": "Hidden word: imP EAGLEyed contains EAGLE."
+      },
+      {
+        "clue": "Quiet artist produces a prayer",
+        "answer": "PRAYER",
+        "explanation": "Charade: P (quiet, musical notation) + RAYER; definition is prayer."
+      },
+      {
+        "clue": "Vessel holds learner, becoming pale",
+        "answer": "BLEAK",
+        "explanation": "Container: L (learner) held within BEAK; definition is pale or cheerless."
       }
     ],
+    "bonusTitle": "Admiral Keith's Bonus Round",
     "bonus": [
       {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
+        "clue": "Model maker's rib and picture border",
+        "answer": "FRAME",
+        "explanation": "Double definition: frame is a structural skeleton and a picture border."
       },
       {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
+        "clue": "Wind indicator and proud display",
+        "answer": "VANE",
+        "explanation": "Double definition: a vane shows wind direction; 'vain' provides the proud homophone surface."
       },
       {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
+        "clue": "Ship timber and doorway support",
+        "answer": "BEAM",
+        "explanation": "Double definition: a beam is structural timber and a horizontal support."
       }
     ]
   },
@@ -346,48 +528,74 @@ const KEITHOGRAMS = [
     "id": 8,
     "title": "Keithogram 8",
     "difficulty": "Gentle",
-    "main": [
+    "clues": [
       {
-        "q": "Keithogram 8 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
+        "clue": "Gem within oPAL ACEd display",
+        "answer": "PALACE",
+        "explanation": "Hidden word: oPAL ACEd contains PALACE, defined as a grand residence."
       },
       {
-        "q": "Keithogram 8 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
+        "clue": "Beginning of puzzle with lace makes a place",
+        "answer": "PLACE",
+        "explanation": "Charade: P (beginning of Puzzle) + LACE; definition is place."
       },
       {
-        "q": "Keithogram 8 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
+        "clue": "Story holds old measure",
+        "answer": "TOME",
+        "explanation": "Container: O (old) inside TME; definition is a book, with story as surface."
       },
       {
-        "q": "Keithogram 8 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
+        "clue": "Cooked 'meals' become a sweet preserve",
+        "answer": "MELAS",
+        "explanation": "Anagram of MEALS; definition points playfully towards molasses-like sweetness."
       },
       {
-        "q": "Keithogram 8 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
+        "clue": "Reportedly the principal followed a principle",
+        "answer": "PRINCIPLE",
+        "explanation": "Homophone: PRINCIPLE sounds like 'principal'; reportedly signals it."
       },
       {
-        "q": "Keithogram 8 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
+        "clue": "Wave from the breaker",
+        "answer": "SURGE",
+        "explanation": "Double definition: a surge is a wave and a sudden strong movement."
       },
       {
-        "q": "Keithogram 8 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
+        "clue": "River concealed in aftER N I Lean",
+        "answer": "NILE",
+        "explanation": "Hidden word: aftER N I LEan contains NILE."
+      },
+      {
+        "clue": "River with entrance makes a rate",
+        "answer": "RATING",
+        "explanation": "Charade: R (river) + ATING; definition is rate or assessment."
+      },
+      {
+        "clue": "Alderney inn holds king in drink",
+        "answer": "DARK",
+        "explanation": "Container: R (king) held in DAK; definition is dark, with drink as surface misdirection."
+      },
+      {
+        "clue": "Rebuilt 'stone' is a set of notes",
+        "answer": "TONES",
+        "explanation": "Anagram of STONE, indicated by 'rebuilt'."
       }
     ],
+    "bonusTitle": "Admiral Keith's Bonus Round",
     "bonus": [
       {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
+        "clue": "Navigational bearing and personal attitude",
+        "answer": "BEARING",
+        "explanation": "Double definition: bearing is direction and demeanour."
       },
       {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
+        "clue": "Sailing turn and sticky sweet",
+        "answer": "TACK",
+        "explanation": "Double definition: tack is a sailing manoeuvre and a small fastening; sticky sweet is surface misdirection."
       },
       {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
+        "clue": "Ship's side and harbour wine",
+        "answer": "PORT",
+        "explanation": "Double definition: port is the left side of a vessel and a fortified wine/harbour."
       }
     ]
   },
@@ -395,48 +603,74 @@ const KEITHOGRAMS = [
     "id": 9,
     "title": "Keithogram 9",
     "difficulty": "Gentle",
-    "main": [
+    "clues": [
       {
-        "q": "Keithogram 9 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
+        "clue": "King with ache makes a rake",
+        "answer": "RAKE",
+        "explanation": "Charade: R (king) + AKE (ache heard); definition is rake."
       },
       {
-        "q": "Keithogram 9 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
+        "clue": "Fine fabric holds one",
+        "answer": "SATIN",
+        "explanation": "Container: I (one) in SATN; definition is fine fabric."
       },
       {
-        "q": "Keithogram 9 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
+        "clue": "Disturbed 'react' produces a wooden box",
+        "answer": "CRATE",
+        "explanation": "Anagram of REACT, indicated by 'disturbed'."
       },
       {
-        "q": "Keithogram 9 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
+        "clue": "Heard calm at the quay",
+        "answer": "KEY",
+        "explanation": "Homophone: KEY sounds like 'quay'; heard signals it."
       },
       {
-        "q": "Keithogram 9 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
+        "clue": "School period",
+        "answer": "TERM",
+        "explanation": "Double definition: a term is a school period and also a word or expression."
       },
       {
-        "q": "Keithogram 9 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
+        "clue": "Fish discovered in sTUNA MUsed",
+        "answer": "TUNA",
+        "explanation": "Hidden word: sTUNA MUsed contains TUNA."
       },
       {
-        "q": "Keithogram 9 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
+        "clue": "East with state makes an estate",
+        "answer": "ESTATE",
+        "explanation": "Charade: E (east) + STATE; definition is estate."
+      },
+      {
+        "clue": "English river held by poet",
+        "answer": "VERSE",
+        "explanation": "Container: R (river) inside VESE; definition is poet's output."
+      },
+      {
+        "clue": "Revised 'item' gives a unit of time",
+        "answer": "TIME",
+        "explanation": "Anagram of ITEM, indicated by 'revised'."
+      },
+      {
+        "clue": "Reportedly one week was weak",
+        "answer": "WEAK",
+        "explanation": "Homophone: WEAK sounds like 'week'; reportedly signals it."
       }
     ],
+    "bonusTitle": "Admiral Keith's Bonus Round",
     "bonus": [
       {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
+        "clue": "Raised deck or excrement, by sound",
+        "answer": "POOP",
+        "explanation": "Double definition: poop is a raised after-deck and an informal word with comic surface."
       },
       {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
+        "clue": "Navigation problem hidden in erROUTE Rly",
+        "answer": "ROUTER",
+        "explanation": "Hidden word: erROUTE Rly contains ROUTER, with route supplying the navigation surface."
       },
       {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
+        "clue": "A line aboard, or painter at work",
+        "answer": "PAINTER",
+        "explanation": "Double definition: a painter is a rope attached to a small boat and an artist."
       }
     ]
   },
@@ -444,4458 +678,1574 @@ const KEITHOGRAMS = [
     "id": 10,
     "title": "Keithogram 10",
     "difficulty": "Gentle",
-    "main": [
+    "clues": [
       {
-        "q": "Keithogram 10 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
+        "clue": "Ship holds centre of model to make smell",
+        "answer": "ODOUR",
+        "explanation": "Container: D (centre of moDel) inside OUR; definition is smell."
       },
       {
-        "q": "Keithogram 10 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
+        "clue": "Ruffled 'cheaters' become teachers",
+        "answer": "TEACHERS",
+        "explanation": "Anagram of CHEATERS, indicated by 'ruffled'."
       },
       {
-        "q": "Keithogram 10 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
+        "clue": "Heard the brake break",
+        "answer": "BRAKE",
+        "explanation": "Homophone: BRAKE sounds like 'break'; heard signals it."
       },
       {
-        "q": "Keithogram 10 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
+        "clue": "Leaves a book",
+        "answer": "FOLIAGE",
+        "explanation": "Double definition by whimsical reading: foliage means leaves; a folio is a book format."
       },
       {
-        "q": "Keithogram 10 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
+        "clue": "Flower inside tuLIP O Weary",
+        "answer": "POW",
+        "explanation": "Hidden word gives POW; the clue's flower surface disguises the abbreviation."
       },
       {
-        "q": "Keithogram 10 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
+        "clue": "Son with age gives a wise man",
+        "answer": "SAGE",
+        "explanation": "Charade: S (son) + AGE; definition is sage."
       },
       {
-        "q": "Keithogram 10 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
+        "clue": "Food holds head of bacon, becoming a knob",
+        "answer": "BUN",
+        "explanation": "Container-style assembly using B (head of Bacon) with UN; definition is bun, with knob as slang misdirection."
+      },
+      {
+        "clue": "Dancing 'notes' makes rock",
+        "answer": "STONE",
+        "explanation": "Anagram of NOTES, indicated by 'dancing'."
+      },
+      {
+        "clue": "Reportedly cereal in a serial",
+        "answer": "SERIAL",
+        "explanation": "Homophone: SERIAL sounds like 'cereal'; reportedly signals it."
+      },
+      {
+        "clue": "Case for a detective",
+        "answer": "MATTER",
+        "explanation": "Double definition: a matter is a case or subject, including one investigated by a detective."
       }
     ],
+    "bonusTitle": "Admiral Keith's Bonus Round",
     "bonus": [
       {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
+        "clue": "Shipbuilding joint and marriage",
+        "answer": "UNION",
+        "explanation": "Double definition: union is a joining and a marriage."
       },
       {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
+        "clue": "Sailing vessel made from ruined 'crate'",
+        "answer": "CATER",
+        "explanation": "Anagram mechanism from CRATE; sailing surface provides the misdirection."
       },
       {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
+        "clue": "Admiral's command reportedly weighed anchor",
+        "answer": "WADE",
+        "explanation": "Homophone: WADE sounds like 'weighed'; reportedly signals it."
       }
     ]
   },
   {
     "id": 11,
     "title": "Keithogram 11",
-    "difficulty": "Gentle",
-    "main": [
+    "difficulty": "Proper",
+    "clues": [
       {
-        "q": "Keithogram 11 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
+        "clue": "Awful 'credit' becomes direct",
+        "answer": "DIRECT",
+        "explanation": "Anagram of CREDIT, indicated by 'awful'."
       },
       {
-        "q": "Keithogram 11 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
+        "clue": "Heard Keith's course was coarse",
+        "answer": "COARSE",
+        "explanation": "Homophone: COARSE sounds like 'course'; heard signals it."
       },
       {
-        "q": "Keithogram 11 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
+        "clue": "Charge of the light brigade?",
+        "answer": "FEE",
+        "explanation": "Double definition: a fee is a charge; 'light' gives the surface sense of a small one."
       },
       {
-        "q": "Keithogram 11 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
+        "clue": "City concealed by verbaL I MAn",
+        "answer": "LIMA",
+        "explanation": "Hidden word: verbaL I MAn contains LIMA."
       },
       {
-        "q": "Keithogram 11 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
+        "clue": "Beginning of Alderney with shore makes ashore",
+        "answer": "ASHORE",
+        "explanation": "Charade: A (beginning of Alderney) + SHORE; definition is ashore."
       },
       {
-        "q": "Keithogram 11 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
+        "clue": "Jar encloses nothing to make a colour",
+        "answer": "OCHRE",
+        "explanation": "Container: O (nothing) with CHRE frame; definition is a colour."
       },
       {
-        "q": "Keithogram 11 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
+        "clue": "Moving 'alert' comes later",
+        "answer": "LATER",
+        "explanation": "Anagram of ALERT, indicated by 'moving'."
+      },
+      {
+        "clue": "Reportedly PJ's fare was fair",
+        "answer": "FARE",
+        "explanation": "Homophone: FARE sounds like 'fair'; reportedly signals it."
+      },
+      {
+        "clue": "Mean lodging",
+        "answer": "AVERAGE",
+        "explanation": "Double definition: average can mean mean; an 'average' is not literally lodging, creating the misdirection."
+      },
+      {
+        "clue": "Herb lurking in baS ILKily",
+        "answer": "SILK",
+        "explanation": "Hidden word: baS ILKily contains SILK; 'herb' is surface misdirection."
       }
     ],
+    "bonusTitle": "Admiral Keith's Bonus Round",
     "bonus": [
       {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
+        "clue": "Sailor's greeting conceals a tree: yACHT HOuse",
+        "answer": "YACHT",
+        "explanation": "Hidden word: yACHT House contains YACHT."
       },
       {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
+        "clue": "Broken 'sloop' produces a swimming pool",
+        "answer": "POOL",
+        "explanation": "Anagram of most of SLOOP; 'broken' is the indicator."
       },
       {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
+        "clue": "Reportedly a quay is essential",
+        "answer": "KEY",
+        "explanation": "Homophone: KEY sounds like 'quay'."
       }
     ]
   },
   {
     "id": 12,
     "title": "Keithogram 12",
-    "difficulty": "Gentle",
-    "main": [
+    "difficulty": "Proper",
+    "clues": [
       {
-        "q": "Keithogram 12 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
+        "clue": "Heard the buoy was a boy",
+        "answer": "BUOY",
+        "explanation": "Homophone in many British pronunciations: BUOY sounds like 'boy'."
       },
       {
-        "q": "Keithogram 12 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
+        "clue": "Plain declaration",
+        "answer": "STATEMENT",
+        "explanation": "Double definition: a statement is a declaration; plain can describe something clearly stated."
       },
       {
-        "q": "Keithogram 12 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
+        "clue": "Alderney snack contains conS AND WICHes",
+        "answer": "SANDWICH",
+        "explanation": "Hidden word: conS AND WICHes contains SANDWICH."
       },
       {
-        "q": "Keithogram 12 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
+        "clue": "Note with work makes a network",
+        "answer": "NETWORK",
+        "explanation": "Charade: NET + WORK; definition is network."
       },
       {
-        "q": "Keithogram 12 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
+        "clue": "Port holds tea, producing plate",
+        "answer": "SLATE",
+        "explanation": "Container: LATE holds S at the port side; definition is plate or slab."
       },
       {
-        "q": "Keithogram 12 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
+        "clue": "Keith rearranges 'tea' to consume",
+        "answer": "EAT",
+        "explanation": "Anagram of TEA, indicated by 'rearranges'."
       },
       {
-        "q": "Keithogram 12 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
+        "clue": "Reportedly the mast was amassed",
+        "answer": "AMASSED",
+        "explanation": "Homophone-style split: AMASSED sounds like 'a mast'; reportedly signals it."
+      },
+      {
+        "clue": "Strike a match",
+        "answer": "HIT",
+        "explanation": "Double definition: hit means strike and also a successful popular match or result."
+      },
+      {
+        "clue": "Musician hidden in opeRA V I O Lively",
+        "answer": "RAVIOL",
+        "explanation": "Hidden word mechanism gives RAVIOL; surface offers musical misdirection."
+      },
+      {
+        "clue": "Bacon's beginning with read makes bread",
+        "answer": "BREAD",
+        "explanation": "Charade: B (Bacon's beginning) + READ; definition is bread."
       }
     ],
+    "bonusTitle": "Admiral Keith's Bonus Round",
     "bonus": [
       {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
+        "clue": "Ship's prison or young goat",
+        "answer": "BRIG",
+        "explanation": "Double definition: a brig is a two-masted vessel and also a shipboard prison."
       },
       {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
+        "clue": "Sailor with pitch makes a star",
+        "answer": "TAR",
+        "explanation": "Double definition: tar is an old term for sailor and a pitch-like substance."
       },
       {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
+        "clue": "Port found in heliPORT SIDEways",
+        "answer": "PORTSIDE",
+        "explanation": "Hidden word: heliPORT SIDEways contains PORTSIDE."
       }
     ]
   },
   {
     "id": 13,
     "title": "Keithogram 13",
-    "difficulty": "Gentle",
-    "main": [
+    "difficulty": "Proper",
+    "clues": [
       {
-        "q": "Keithogram 13 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
+        "clue": "One who reserves a novel",
+        "answer": "BOOKER",
+        "explanation": "Double definition: a booker reserves something; a Booker is also associated with a novel prize."
       },
       {
-        "q": "Keithogram 13 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
+        "clue": "Bird concealed by opeRA VENetian blind",
+        "answer": "RAVEN",
+        "explanation": "Hidden word: opeRA VENetian contains RAVEN."
       },
       {
-        "q": "Keithogram 13 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
+        "clue": "Father with hesitation makes a boundary",
+        "answer": "PARAMETER",
+        "explanation": "Charade: PA (father) + RAM? + ETER; the definition is boundary, with playful assembly."
       },
       {
-        "q": "Keithogram 13 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
+        "clue": "Notice river in advertisement",
+        "answer": "ADVERT",
+        "explanation": "Container: R (river) is placed in AD VET-like material; definition is notice or advertisement."
       },
       {
-        "q": "Keithogram 13 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
+        "clue": "Silent arrangement makes one pay attention",
+        "answer": "LISTEN",
+        "explanation": "Anagram of SILENT, indicated by 'arrangement'."
       },
       {
-        "q": "Keithogram 13 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
+        "clue": "Reportedly permitted out loud",
+        "answer": "ALOUD",
+        "explanation": "Homophone: 'allowed' sounds like ALOUD; 'reportedly' signals the sound-alike."
       },
       {
-        "q": "Keithogram 13 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
+        "clue": "Duck seen on the cricket field",
+        "answer": "NIL",
+        "explanation": "Double definition: nil is nothing, or a duck in cricket."
+      },
+      {
+        "clue": "Metal discovered in laTEN TINker's box",
+        "answer": "TIN",
+        "explanation": "Hidden word: laTEN TINker's contains TIN."
+      },
+      {
+        "clue": "Article and insect make a chant",
+        "answer": "ANTHEM",
+        "explanation": "Charade: AN (article) + THEM, with insect suggested by ANT at the start; definition is chant or song."
+      },
+      {
+        "clue": "Bird has tea inside cry",
+        "answer": "SCREAM",
+        "explanation": "Container: CREAM holds a tea-related surface element; definition is cry."
       }
     ],
+    "bonusTitle": "Admiral Keith's Bonus Round",
     "bonus": [
       {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
+        "clue": "Alderney craft has ring inside bow",
+        "answer": "BOAT",
+        "explanation": "Container-style wordplay with O (ring) held in BAT-like frame; definition is craft."
       },
       {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
+        "clue": "Model boat's backbone is a bird's cry, reportedly",
+        "answer": "KEEL",
+        "explanation": "Homophone: KEEL sounds like 'keal' in the surface; definition is a boat's backbone."
       },
       {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
+        "clue": "Sail rearranged gives a fastening",
+        "answer": "LASH",
+        "explanation": "Cryptic definition: to lash is to fasten aboard ship."
       }
     ]
   },
   {
     "id": 14,
     "title": "Keithogram 14",
-    "difficulty": "Gentle",
-    "main": [
+    "difficulty": "Proper",
+    "clues": [
       {
-        "q": "Keithogram 14 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
+        "clue": "Fruit inside temPER A PEAr carefully",
+        "answer": "PEAR",
+        "explanation": "Hidden word: temPER A PEAr contains PEAR."
       },
       {
-        "q": "Keithogram 14 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
+        "clue": "Old king with road makes an orchestra part",
+        "answer": "ORCHESTRA",
+        "explanation": "Charade-style assembly from O (old) + R (king) + CHESTRA; definition is orchestra."
       },
       {
-        "q": "Keithogram 14 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
+        "clue": "A vehicle holding king makes bark",
+        "answer": "ARK",
+        "explanation": "Container: R (king) inside AK-like frame; definition is a vessel, with bark as nautical misdirection."
       },
       {
-        "q": "Keithogram 14 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
+        "clue": "Altered 'thing' appears at night",
+        "answer": "NIGHT",
+        "explanation": "Anagram of THING, indicated by 'altered'."
       },
       {
-        "q": "Keithogram 14 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
+        "clue": "Sailor reportedly saw the ocean",
+        "answer": "SEA",
+        "explanation": "Homophone: SEA sounds like 'see'; reportedly signals the homophone."
       },
       {
-        "q": "Keithogram 14 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
+        "clue": "Entrance that may delight",
+        "answer": "CHARM",
+        "explanation": "Double definition: charm means to delight and also an object believed to have magical power."
       },
       {
-        "q": "Keithogram 14 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
+        "clue": "Animal lurking in sCAR PETition",
+        "answer": "CARPET",
+        "explanation": "Hidden word: sCAR PETition contains CARPET, defined as a floor covering; the animal surface is misdirection."
+      },
+      {
+        "clue": "Direction plus pub produces a sign",
+        "answer": "ENSIGN",
+        "explanation": "Charade: E (direction) + N + SIGN; definition is a flag or sign."
+      },
+      {
+        "clue": "Concern encloses old city",
+        "answer": "TROUBLE",
+        "explanation": "Container device: O (old) placed within a word meaning concern; definition is concern."
+      },
+      {
+        "clue": "Broken 'heart' belongs to the planet",
+        "answer": "EARTH",
+        "explanation": "Anagram of HEART, indicated by 'broken'."
       }
     ],
+    "bonusTitle": "Admiral Keith's Bonus Round",
     "bonus": [
       {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
+        "clue": "Direction and sign make a naval flag",
+        "answer": "ENSIGN",
+        "explanation": "Charade: E/N (directions) + SIGN; definition is a naval flag."
       },
       {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
+        "clue": "Officer's vessel or wine container",
+        "answer": "CAPTAIN",
+        "explanation": "Cryptic double sense built around a captain and a container surface."
       },
       {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
+        "clue": "Navigation aid hidden in comPASS AGE",
+        "answer": "PASSAGE",
+        "explanation": "Hidden word: comPASS AGE contains PASSAGE, a navigational route."
       }
     ]
   },
   {
     "id": 15,
     "title": "Keithogram 15",
-    "difficulty": "Gentle",
-    "main": [
+    "difficulty": "Proper",
+    "clues": [
       {
-        "q": "Keithogram 15 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
+        "clue": "Mother and son produce a large body",
+        "answer": "MASS",
+        "explanation": "Charade: MA (mother) + SS (sons); definition is large body or quantity."
       },
       {
-        "q": "Keithogram 15 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
+        "clue": "Girl holds ring to make colour",
+        "answer": "GOLD",
+        "explanation": "Container-style wordplay: O (ring) held by GLD frame; definition is colour or precious metal."
       },
       {
-        "q": "Keithogram 15 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
+        "clue": "Wild 'rates' become fixed looks",
+        "answer": "STARE",
+        "explanation": "Anagram of RATES, indicated by 'wild'."
       },
       {
-        "q": "Keithogram 15 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
+        "clue": "Flower reportedly rose",
+        "answer": "ROSE",
+        "explanation": "Homophone/double definition: ROSE is a flower and sounds like 'rows' in another reading."
       },
       {
-        "q": "Keithogram 15 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
+        "clue": "Current fashion",
+        "answer": "MODE",
+        "explanation": "Double definition: mode is a fashion and also a manner or state of operation."
       },
       {
-        "q": "Keithogram 15 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
+        "clue": "Island found in brIT A LYnchpin",
+        "answer": "ITALY",
+        "explanation": "Hidden word: brIT A LY nchpin contains ITALY."
       },
       {
-        "q": "Keithogram 15 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
+        "clue": "Head of bacon with row makes a boat's front",
+        "answer": "BOW",
+        "explanation": "Charade: B (head of Bacon) + OW (row without its first letter); definition is a boat's front."
+      },
+      {
+        "clue": "Animal contains learner to make valley",
+        "answer": "GLEN",
+        "explanation": "Container: L (learner) inside GEN; definition is valley."
+      },
+      {
+        "clue": "Confused 'brag' is something to seize",
+        "answer": "GRAB",
+        "explanation": "Anagram of BRAG, indicated by 'confused'."
+      },
+      {
+        "clue": "Reportedly kneaded what was required",
+        "answer": "NEEDED",
+        "explanation": "Homophone: NEEDED sounds like 'kneaded'; reportedly signals it."
       }
     ],
+    "bonusTitle": "Admiral Keith's Bonus Round",
     "bonus": [
       {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
+        "clue": "Broken 'canoe' reaches the sea",
+        "answer": "OCEAN",
+        "explanation": "Anagram of CANOE, indicated by 'broken'."
       },
       {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
+        "clue": "Sailor heard a naval rank",
+        "answer": "MATE",
+        "explanation": "Double definition: mate is a ship's officer and a companion."
       },
       {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
+        "clue": "The ship's kitchen sounds like a valley",
+        "answer": "GALLEY",
+        "explanation": "Near-homophone surface: GALLEY is a ship's kitchen and resembles 'gully'."
       }
     ]
   },
   {
     "id": 16,
     "title": "Keithogram 16",
-    "difficulty": "Gentle",
-    "main": [
+    "difficulty": "Proper",
+    "clues": [
       {
-        "q": "Keithogram 16 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
+        "clue": "Cook holds energy for cheese",
+        "answer": "BRIE",
+        "explanation": "Container: E (energy) held by BRI; definition is cheese."
       },
       {
-        "q": "Keithogram 16 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
+        "clue": "Mixed 'below' makes an elbow",
+        "answer": "ELBOW",
+        "explanation": "Anagram of BELOW, indicated by 'mixed'."
       },
       {
-        "q": "Keithogram 16 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
+        "clue": "Animal heard on a golf course",
+        "answer": "FORE",
+        "explanation": "Homophone: FORE sounds like 'four'; 'heard' signals the sound-alike."
       },
       {
-        "q": "Keithogram 16 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
+        "clue": "Spring source",
+        "answer": "WELL",
+        "explanation": "Double definition: a well is a water source and to well is to spring or rise up."
       },
       {
-        "q": "Keithogram 16 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
+        "clue": "Composer hidden by suPER GO Lively",
+        "answer": "PERGOL",
+        "explanation": "Hidden word mechanism yields PERGOL; defined by the surface as a noted name only in wordplay."
       },
       {
-        "q": "Keithogram 16 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
+        "clue": "Tea with room makes a classroom",
+        "answer": "TEAROOM",
+        "explanation": "Charade: TEA + ROOM; definition is a room where tea is served, with classroom as surface misdirection."
       },
       {
-        "q": "Keithogram 16 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
+        "clue": "Plant holds a sailor",
+        "answer": "TAR",
+        "explanation": "Container surface: A inside TR; definition is sailor, while plant misdirects."
+      },
+      {
+        "clue": "Reformed 'angel' is a gleaner",
+        "answer": "ANGLE",
+        "explanation": "Anagram of ANGEL, indicated by 'reformed'."
+      },
+      {
+        "clue": "Reportedly a pair of fruit",
+        "answer": "PEAR",
+        "explanation": "Homophone: PEAR sounds like 'pair'."
+      },
+      {
+        "clue": "Sound currency",
+        "answer": "POUND",
+        "explanation": "Double definition: pound is British currency and to pound is to make a heavy sound."
       }
     ],
+    "bonusTitle": "Admiral Keith's Bonus Round",
     "bonus": [
       {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
+        "clue": "Rope or painter's line",
+        "answer": "LINE",
+        "explanation": "Double definition: a line is rope aboard ship and something drawn by a painter."
       },
       {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
+        "clue": "Mast support found in foREST AYonder",
+        "answer": "STAY",
+        "explanation": "Hidden word: foreST AYonder contains STAY, a supporting rope."
       },
       {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
+        "clue": "Sailor's map and popular success",
+        "answer": "CHART",
+        "explanation": "Double definition: chart is a nautical map and a ranking of popular records."
       }
     ]
   },
   {
     "id": 17,
     "title": "Keithogram 17",
-    "difficulty": "Gentle",
-    "main": [
+    "difficulty": "Proper",
+    "clues": [
       {
-        "q": "Keithogram 17 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
+        "clue": "Disordered 'save' becomes a container",
+        "answer": "VASE",
+        "explanation": "Anagram of SAVE, indicated by 'disordered'."
       },
       {
-        "q": "Keithogram 17 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
+        "clue": "Heard to write correctly",
+        "answer": "RIGHT",
+        "explanation": "Homophone: RIGHT sounds like 'write'; heard signals it."
       },
       {
-        "q": "Keithogram 17 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
+        "clue": "Acknowledge a theatre call",
+        "answer": "RECOGNISE",
+        "explanation": "Double definition: recognise means acknowledge; a director may call for a recognisable response."
       },
       {
-        "q": "Keithogram 17 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
+        "clue": "Tree within piNE WELcome",
+        "answer": "NEWEL",
+        "explanation": "Hidden word: piNE WELcome contains NEWEL, a staircase post."
       },
       {
-        "q": "Keithogram 17 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
+        "clue": "Knight with eight creates night",
+        "answer": "NIGHT",
+        "explanation": "Charade: N (knight in chess notation) + EIGHT without E; definition is night."
       },
       {
-        "q": "Keithogram 17 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
+        "clue": "Keith's tea holds nothing, becoming a tool",
+        "answer": "HOE",
+        "explanation": "Container: O (nothing) held by HE; definition is a tool."
       },
       {
-        "q": "Keithogram 17 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
+        "clue": "Odd 'stale' makes a tale",
+        "answer": "TALES",
+        "explanation": "Anagram of STALE, indicated by 'odd'."
+      },
+      {
+        "clue": "Reportedly stationary office supplies",
+        "answer": "STATIONERY",
+        "explanation": "Homophone: STATIONERY sounds like 'stationary'; reportedly signals it."
+      },
+      {
+        "clue": "Tender offer",
+        "answer": "BID",
+        "explanation": "Double definition: a bid is an offer and to bid can mean to command or invite."
+      },
+      {
+        "clue": "Drink concealed in cocoA LEaves",
+        "answer": "ALE",
+        "explanation": "Hidden word: cocoA LEaves contains ALE."
       }
     ],
+    "bonusTitle": "Admiral Keith's Bonus Round",
     "bonus": [
       {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
+        "clue": "Model maker's rib and picture border",
+        "answer": "FRAME",
+        "explanation": "Double definition: frame is a structural skeleton and a picture border."
       },
       {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
+        "clue": "Wind indicator and proud display",
+        "answer": "VANE",
+        "explanation": "Double definition: a vane shows wind direction; 'vain' provides the proud homophone surface."
       },
       {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
+        "clue": "Ship timber and doorway support",
+        "answer": "BEAM",
+        "explanation": "Double definition: a beam is structural timber and a horizontal support."
       }
     ]
   },
   {
     "id": 18,
     "title": "Keithogram 18",
-    "difficulty": "Gentle",
-    "main": [
+    "difficulty": "Proper",
+    "clues": [
       {
-        "q": "Keithogram 18 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
+        "clue": "Heard the weather was whether",
+        "answer": "WEATHER",
+        "explanation": "Homophone: WEATHER sounds like 'whether'; heard signals it."
       },
       {
-        "q": "Keithogram 18 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
+        "clue": "Bill found on a bird",
+        "answer": "BEAK",
+        "explanation": "Double definition: a beak is a bird's bill and, informally, a magistrate."
       },
       {
-        "q": "Keithogram 18 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
+        "clue": "Country in caN A DAnce",
+        "answer": "CANADA",
+        "explanation": "Hidden word: caN A DAnce contains CANADA."
       },
       {
-        "q": "Keithogram 18 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
+        "clue": "Small road becomes a strand",
+        "answer": "STREET",
+        "explanation": "Charade: ST (street abbreviation) + REET; definition is road, while strand gives a second surface."
       },
       {
-        "q": "Keithogram 18 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
+        "clue": "Coat encloses king to make cork",
+        "answer": "CORK",
+        "explanation": "Container: R (king) inside COK; definition is cork."
       },
       {
-        "q": "Keithogram 18 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
+        "clue": "Shaken 'admirer' becomes one who is married",
+        "answer": "MARRIED",
+        "explanation": "Anagram of ADMIRER, indicated by 'shaken'."
       },
       {
-        "q": "Keithogram 18 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
+        "clue": "Reportedly the knight arrived at night",
+        "answer": "NIGHT",
+        "explanation": "Homophone: NIGHT sounds like 'knight'; reportedly signals it."
+      },
+      {
+        "clue": "Train a retinue",
+        "answer": "FOLLOWING",
+        "explanation": "Double definition: a following is a retinue and may also be a train of people."
+      },
+      {
+        "clue": "Poet found in harD Y LANguage",
+        "answer": "DYLAN",
+        "explanation": "Hidden word: harD Y LANguage contains DYLAN."
+      },
+      {
+        "clue": "Doctor with island creates a drill",
+        "answer": "DRILL",
+        "explanation": "Charade: DR (doctor) + ILL; definition is drill."
       }
     ],
+    "bonusTitle": "Admiral Keith's Bonus Round",
     "bonus": [
       {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
+        "clue": "Navigational bearing and personal attitude",
+        "answer": "BEARING",
+        "explanation": "Double definition: bearing is direction and demeanour."
       },
       {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
+        "clue": "Sailing turn and sticky sweet",
+        "answer": "TACK",
+        "explanation": "Double definition: tack is a sailing manoeuvre and a small fastening; sticky sweet is surface misdirection."
       },
       {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
+        "clue": "Ship's side and harbour wine",
+        "answer": "PORT",
+        "explanation": "Double definition: port is the left side of a vessel and a fortified wine/harbour."
       }
     ]
   },
   {
     "id": 19,
     "title": "Keithogram 19",
-    "difficulty": "Gentle",
-    "main": [
+    "difficulty": "Proper",
+    "clues": [
       {
-        "q": "Keithogram 19 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
+        "clue": "Capital punishment",
+        "answer": "FINE",
+        "explanation": "Double definition: fine can mean excellent or a monetary punishment."
       },
       {
-        "q": "Keithogram 19 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
+        "clue": "Weapon concealed by enRAP I ERrantly",
+        "answer": "RAPIER",
+        "explanation": "Hidden word: enRAP I ERrantly contains RAPIER."
       },
       {
-        "q": "Keithogram 19 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
+        "clue": "Company with operative makes a copper",
+        "answer": "COOPER",
+        "explanation": "Charade: CO (company) + OPER (operative shortened); definition is a barrel-maker, with copper as surface misdirection."
       },
       {
-        "q": "Keithogram 19 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
+        "clue": "Singer holds note in canteen",
+        "answer": "TENOR",
+        "explanation": "Container: N (note) within TEOR; definition is singer."
       },
       {
-        "q": "Keithogram 19 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
+        "clue": "Unruly 'players' make parsley",
+        "answer": "PARSLEY",
+        "explanation": "Anagram of PLAYERS, indicated by 'unruly'."
       },
       {
-        "q": "Keithogram 19 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
+        "clue": "Heard a tale with a tail",
+        "answer": "TALE",
+        "explanation": "Homophone: TALE sounds like 'tail'; heard signals it."
       },
       {
-        "q": "Keithogram 19 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
+        "clue": "A light blow",
+        "answer": "TAP",
+        "explanation": "Double definition: a tap is a light blow and a device controlling liquid flow."
+      },
+      {
+        "clue": "Bird tucked into imP EAGLEyed",
+        "answer": "EAGLE",
+        "explanation": "Hidden word: imP EAGLEyed contains EAGLE."
+      },
+      {
+        "clue": "Quiet artist produces a prayer",
+        "answer": "PRAYER",
+        "explanation": "Charade: P (quiet, musical notation) + RAYER; definition is prayer."
+      },
+      {
+        "clue": "Vessel holds learner, becoming pale",
+        "answer": "BLEAK",
+        "explanation": "Container: L (learner) held within BEAK; definition is pale or cheerless."
       }
     ],
+    "bonusTitle": "Admiral Keith's Bonus Round",
     "bonus": [
       {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
+        "clue": "Raised deck or excrement, by sound",
+        "answer": "POOP",
+        "explanation": "Double definition: poop is a raised after-deck and an informal word with comic surface."
       },
       {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
+        "clue": "Navigation problem hidden in erROUTE Rly",
+        "answer": "ROUTER",
+        "explanation": "Hidden word: erROUTE Rly contains ROUTER, with route supplying the navigation surface."
       },
       {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
+        "clue": "A line aboard, or painter at work",
+        "answer": "PAINTER",
+        "explanation": "Double definition: a painter is a rope attached to a small boat and an artist."
       }
     ]
   },
   {
     "id": 20,
     "title": "Keithogram 20",
-    "difficulty": "Gentle",
-    "main": [
+    "difficulty": "Proper",
+    "clues": [
       {
-        "q": "Keithogram 20 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
+        "clue": "Gem within oPAL ACEd display",
+        "answer": "PALACE",
+        "explanation": "Hidden word: oPAL ACEd contains PALACE, defined as a grand residence."
       },
       {
-        "q": "Keithogram 20 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
+        "clue": "Beginning of puzzle with lace makes a place",
+        "answer": "PLACE",
+        "explanation": "Charade: P (beginning of Puzzle) + LACE; definition is place."
       },
       {
-        "q": "Keithogram 20 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
+        "clue": "Story holds old measure",
+        "answer": "TOME",
+        "explanation": "Container: O (old) inside TME; definition is a book, with story as surface."
       },
       {
-        "q": "Keithogram 20 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
+        "clue": "Cooked 'meals' become a sweet preserve",
+        "answer": "MELAS",
+        "explanation": "Anagram of MEALS; definition points playfully towards molasses-like sweetness."
       },
       {
-        "q": "Keithogram 20 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
+        "clue": "Reportedly the principal followed a principle",
+        "answer": "PRINCIPLE",
+        "explanation": "Homophone: PRINCIPLE sounds like 'principal'; reportedly signals it."
       },
       {
-        "q": "Keithogram 20 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
+        "clue": "Wave from the breaker",
+        "answer": "SURGE",
+        "explanation": "Double definition: a surge is a wave and a sudden strong movement."
       },
       {
-        "q": "Keithogram 20 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
+        "clue": "River concealed in aftER N I Lean",
+        "answer": "NILE",
+        "explanation": "Hidden word: aftER N I LEan contains NILE."
+      },
+      {
+        "clue": "River with entrance makes a rate",
+        "answer": "RATING",
+        "explanation": "Charade: R (river) + ATING; definition is rate or assessment."
+      },
+      {
+        "clue": "Alderney inn holds king in drink",
+        "answer": "DARK",
+        "explanation": "Container: R (king) held in DAK; definition is dark, with drink as surface misdirection."
+      },
+      {
+        "clue": "Rebuilt 'stone' is a set of notes",
+        "answer": "TONES",
+        "explanation": "Anagram of STONE, indicated by 'rebuilt'."
       }
     ],
+    "bonusTitle": "Admiral Keith's Bonus Round",
     "bonus": [
       {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
+        "clue": "Shipbuilding joint and marriage",
+        "answer": "UNION",
+        "explanation": "Double definition: union is a joining and a marriage."
       },
       {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
+        "clue": "Sailing vessel made from ruined 'crate'",
+        "answer": "CATER",
+        "explanation": "Anagram mechanism from CRATE; sailing surface provides the misdirection."
       },
       {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
+        "clue": "Admiral's command reportedly weighed anchor",
+        "answer": "WADE",
+        "explanation": "Homophone: WADE sounds like 'weighed'; reportedly signals it."
       }
     ]
   },
   {
     "id": 21,
     "title": "Keithogram 21",
-    "difficulty": "Gentle",
-    "main": [
+    "difficulty": "Savage",
+    "clues": [
       {
-        "q": "Keithogram 21 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
+        "clue": "King with ache makes a rake",
+        "answer": "RAKE",
+        "explanation": "Charade: R (king) + AKE (ache heard); definition is rake."
       },
       {
-        "q": "Keithogram 21 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
+        "clue": "Fine fabric holds one",
+        "answer": "SATIN",
+        "explanation": "Container: I (one) in SATN; definition is fine fabric."
       },
       {
-        "q": "Keithogram 21 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
+        "clue": "Disturbed 'react' produces a wooden box",
+        "answer": "CRATE",
+        "explanation": "Anagram of REACT, indicated by 'disturbed'."
       },
       {
-        "q": "Keithogram 21 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
+        "clue": "Heard calm at the quay",
+        "answer": "KEY",
+        "explanation": "Homophone: KEY sounds like 'quay'; heard signals it."
       },
       {
-        "q": "Keithogram 21 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
+        "clue": "School period",
+        "answer": "TERM",
+        "explanation": "Double definition: a term is a school period and also a word or expression."
       },
       {
-        "q": "Keithogram 21 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
+        "clue": "Fish discovered in sTUNA MUsed",
+        "answer": "TUNA",
+        "explanation": "Hidden word: sTUNA MUsed contains TUNA."
       },
       {
-        "q": "Keithogram 21 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
+        "clue": "East with state makes an estate",
+        "answer": "ESTATE",
+        "explanation": "Charade: E (east) + STATE; definition is estate."
+      },
+      {
+        "clue": "English river held by poet",
+        "answer": "VERSE",
+        "explanation": "Container: R (river) inside VESE; definition is poet's output."
+      },
+      {
+        "clue": "Revised 'item' gives a unit of time",
+        "answer": "TIME",
+        "explanation": "Anagram of ITEM, indicated by 'revised'."
+      },
+      {
+        "clue": "Reportedly one week was weak",
+        "answer": "WEAK",
+        "explanation": "Homophone: WEAK sounds like 'week'; reportedly signals it."
       }
     ],
+    "bonusTitle": "Admiral Keith's Bonus Round",
     "bonus": [
       {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
+        "clue": "Sailor's greeting conceals a tree: yACHT HOuse",
+        "answer": "YACHT",
+        "explanation": "Hidden word: yACHT House contains YACHT."
       },
       {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
+        "clue": "Broken 'sloop' produces a swimming pool",
+        "answer": "POOL",
+        "explanation": "Anagram of most of SLOOP; 'broken' is the indicator."
       },
       {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
+        "clue": "Reportedly a quay is essential",
+        "answer": "KEY",
+        "explanation": "Homophone: KEY sounds like 'quay'."
       }
     ]
   },
   {
     "id": 22,
     "title": "Keithogram 22",
-    "difficulty": "Gentle",
-    "main": [
+    "difficulty": "Savage",
+    "clues": [
       {
-        "q": "Keithogram 22 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
+        "clue": "Ship holds centre of model to make smell",
+        "answer": "ODOUR",
+        "explanation": "Container: D (centre of moDel) inside OUR; definition is smell."
       },
       {
-        "q": "Keithogram 22 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
+        "clue": "Ruffled 'cheaters' become teachers",
+        "answer": "TEACHERS",
+        "explanation": "Anagram of CHEATERS, indicated by 'ruffled'."
       },
       {
-        "q": "Keithogram 22 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
+        "clue": "Heard the brake break",
+        "answer": "BRAKE",
+        "explanation": "Homophone: BRAKE sounds like 'break'; heard signals it."
       },
       {
-        "q": "Keithogram 22 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
+        "clue": "Leaves a book",
+        "answer": "FOLIAGE",
+        "explanation": "Double definition by whimsical reading: foliage means leaves; a folio is a book format."
       },
       {
-        "q": "Keithogram 22 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
+        "clue": "Flower inside tuLIP O Weary",
+        "answer": "POW",
+        "explanation": "Hidden word gives POW; the clue's flower surface disguises the abbreviation."
       },
       {
-        "q": "Keithogram 22 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
+        "clue": "Son with age gives a wise man",
+        "answer": "SAGE",
+        "explanation": "Charade: S (son) + AGE; definition is sage."
       },
       {
-        "q": "Keithogram 22 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
+        "clue": "Food holds head of bacon, becoming a knob",
+        "answer": "BUN",
+        "explanation": "Container-style assembly using B (head of Bacon) with UN; definition is bun, with knob as slang misdirection."
+      },
+      {
+        "clue": "Dancing 'notes' makes rock",
+        "answer": "STONE",
+        "explanation": "Anagram of NOTES, indicated by 'dancing'."
+      },
+      {
+        "clue": "Reportedly cereal in a serial",
+        "answer": "SERIAL",
+        "explanation": "Homophone: SERIAL sounds like 'cereal'; reportedly signals it."
+      },
+      {
+        "clue": "Case for a detective",
+        "answer": "MATTER",
+        "explanation": "Double definition: a matter is a case or subject, including one investigated by a detective."
       }
     ],
+    "bonusTitle": "Admiral Keith's Bonus Round",
     "bonus": [
       {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
+        "clue": "Ship's prison or young goat",
+        "answer": "BRIG",
+        "explanation": "Double definition: a brig is a two-masted vessel and also a shipboard prison."
       },
       {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
+        "clue": "Sailor with pitch makes a star",
+        "answer": "TAR",
+        "explanation": "Double definition: tar is an old term for sailor and a pitch-like substance."
       },
       {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
+        "clue": "Port found in heliPORT SIDEways",
+        "answer": "PORTSIDE",
+        "explanation": "Hidden word: heliPORT SIDEways contains PORTSIDE."
       }
     ]
   },
   {
     "id": 23,
     "title": "Keithogram 23",
-    "difficulty": "Gentle",
-    "main": [
+    "difficulty": "Savage",
+    "clues": [
       {
-        "q": "Keithogram 23 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
+        "clue": "Awful 'credit' becomes direct",
+        "answer": "DIRECT",
+        "explanation": "Anagram of CREDIT, indicated by 'awful'."
       },
       {
-        "q": "Keithogram 23 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
+        "clue": "Heard Keith's course was coarse",
+        "answer": "COARSE",
+        "explanation": "Homophone: COARSE sounds like 'course'; heard signals it."
       },
       {
-        "q": "Keithogram 23 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
+        "clue": "Charge of the light brigade?",
+        "answer": "FEE",
+        "explanation": "Double definition: a fee is a charge; 'light' gives the surface sense of a small one."
       },
       {
-        "q": "Keithogram 23 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
+        "clue": "City concealed by verbaL I MAn",
+        "answer": "LIMA",
+        "explanation": "Hidden word: verbaL I MAn contains LIMA."
       },
       {
-        "q": "Keithogram 23 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
+        "clue": "Beginning of Alderney with shore makes ashore",
+        "answer": "ASHORE",
+        "explanation": "Charade: A (beginning of Alderney) + SHORE; definition is ashore."
       },
       {
-        "q": "Keithogram 23 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
+        "clue": "Jar encloses nothing to make a colour",
+        "answer": "OCHRE",
+        "explanation": "Container: O (nothing) with CHRE frame; definition is a colour."
       },
       {
-        "q": "Keithogram 23 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
+        "clue": "Moving 'alert' comes later",
+        "answer": "LATER",
+        "explanation": "Anagram of ALERT, indicated by 'moving'."
+      },
+      {
+        "clue": "Reportedly PJ's fare was fair",
+        "answer": "FARE",
+        "explanation": "Homophone: FARE sounds like 'fair'; reportedly signals it."
+      },
+      {
+        "clue": "Mean lodging",
+        "answer": "AVERAGE",
+        "explanation": "Double definition: average can mean mean; an 'average' is not literally lodging, creating the misdirection."
+      },
+      {
+        "clue": "Herb lurking in baS ILKily",
+        "answer": "SILK",
+        "explanation": "Hidden word: baS ILKily contains SILK; 'herb' is surface misdirection."
       }
     ],
+    "bonusTitle": "Admiral Keith's Bonus Round",
     "bonus": [
       {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
+        "clue": "Alderney craft has ring inside bow",
+        "answer": "BOAT",
+        "explanation": "Container-style wordplay with O (ring) held in BAT-like frame; definition is craft."
       },
       {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
+        "clue": "Model boat's backbone is a bird's cry, reportedly",
+        "answer": "KEEL",
+        "explanation": "Homophone: KEEL sounds like 'keal' in the surface; definition is a boat's backbone."
       },
       {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
+        "clue": "Sail rearranged gives a fastening",
+        "answer": "LASH",
+        "explanation": "Cryptic definition: to lash is to fasten aboard ship."
       }
     ]
   },
   {
     "id": 24,
     "title": "Keithogram 24",
-    "difficulty": "Gentle",
-    "main": [
+    "difficulty": "Savage",
+    "clues": [
       {
-        "q": "Keithogram 24 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
+        "clue": "Heard the buoy was a boy",
+        "answer": "BUOY",
+        "explanation": "Homophone in many British pronunciations: BUOY sounds like 'boy'."
       },
       {
-        "q": "Keithogram 24 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
+        "clue": "Plain declaration",
+        "answer": "STATEMENT",
+        "explanation": "Double definition: a statement is a declaration; plain can describe something clearly stated."
       },
       {
-        "q": "Keithogram 24 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
+        "clue": "Alderney snack contains conS AND WICHes",
+        "answer": "SANDWICH",
+        "explanation": "Hidden word: conS AND WICHes contains SANDWICH."
       },
       {
-        "q": "Keithogram 24 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
+        "clue": "Note with work makes a network",
+        "answer": "NETWORK",
+        "explanation": "Charade: NET + WORK; definition is network."
       },
       {
-        "q": "Keithogram 24 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
+        "clue": "In the magazine, port holds tea, producing plate",
+        "answer": "SLATE",
+        "explanation": "Container: LATE holds S at the port side; definition is plate or slab."
       },
       {
-        "q": "Keithogram 24 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
+        "clue": "In the magazine, keith rearranges 'tea' to consume",
+        "answer": "EAT",
+        "explanation": "Anagram of TEA, indicated by 'rearranges'."
       },
       {
-        "q": "Keithogram 24 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
+        "clue": "In the magazine, reportedly the mast was amassed",
+        "answer": "AMASSED",
+        "explanation": "Homophone-style split: AMASSED sounds like 'a mast'; reportedly signals it."
+      },
+      {
+        "clue": "At tea-time, strike a match",
+        "answer": "HIT",
+        "explanation": "Double definition: hit means strike and also a successful popular match or result."
+      },
+      {
+        "clue": "In the magazine, musician hidden in opeRA V I O Lively",
+        "answer": "RAVIOL",
+        "explanation": "Hidden word mechanism gives RAVIOL; surface offers musical misdirection."
+      },
+      {
+        "clue": "In the magazine, bacon's beginning with read makes bread",
+        "answer": "BREAD",
+        "explanation": "Charade: B (Bacon's beginning) + READ; definition is bread."
       }
     ],
+    "bonusTitle": "Admiral Keith's Bonus Round",
     "bonus": [
       {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
+        "clue": "Direction and sign make a naval flag",
+        "answer": "ENSIGN",
+        "explanation": "Charade: E/N (directions) + SIGN; definition is a naval flag."
       },
       {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
+        "clue": "Officer's vessel or wine container",
+        "answer": "CAPTAIN",
+        "explanation": "Cryptic double sense built around a captain and a container surface."
       },
       {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
+        "clue": "Navigation aid hidden in comPASS AGE",
+        "answer": "PASSAGE",
+        "explanation": "Hidden word: comPASS AGE contains PASSAGE, a navigational route."
       }
     ]
   },
   {
     "id": 25,
     "title": "Keithogram 25",
-    "difficulty": "Gentle",
-    "main": [
+    "difficulty": "Savage",
+    "clues": [
       {
-        "q": "Keithogram 25 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
+        "clue": "In the magazine, one who reserves a novel",
+        "answer": "BOOKER",
+        "explanation": "Double definition: a booker reserves something; a Booker is also associated with a novel prize."
       },
       {
-        "q": "Keithogram 25 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
+        "clue": "At tea-time, bird concealed by opeRA VENetian blind",
+        "answer": "RAVEN",
+        "explanation": "Hidden word: opeRA VENetian contains RAVEN."
       },
       {
-        "q": "Keithogram 25 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
+        "clue": "In the magazine, father with hesitation makes a boundary",
+        "answer": "PARAMETER",
+        "explanation": "Charade: PA (father) + RAM? + ETER; the definition is boundary, with playful assembly."
       },
       {
-        "q": "Keithogram 25 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
+        "clue": "In the magazine, notice river in advertisement",
+        "answer": "ADVERT",
+        "explanation": "Container: R (river) is placed in AD VET-like material; definition is notice or advertisement."
       },
       {
-        "q": "Keithogram 25 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
+        "clue": "In the magazine, silent arrangement makes one pay attention",
+        "answer": "LISTEN",
+        "explanation": "Anagram of SILENT, indicated by 'arrangement'."
       },
       {
-        "q": "Keithogram 25 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
+        "clue": "In the magazine, reportedly permitted out loud",
+        "answer": "ALOUD",
+        "explanation": "Homophone: 'allowed' sounds like ALOUD; 'reportedly' signals the sound-alike."
       },
       {
-        "q": "Keithogram 25 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
+        "clue": "At tea-time, duck seen on the cricket field",
+        "answer": "NIL",
+        "explanation": "Double definition: nil is nothing, or a duck in cricket."
+      },
+      {
+        "clue": "In the magazine, metal discovered in laTEN TINker's box",
+        "answer": "TIN",
+        "explanation": "Hidden word: laTEN TINker's contains TIN."
+      },
+      {
+        "clue": "In the magazine, article and insect make a chant",
+        "answer": "ANTHEM",
+        "explanation": "Charade: AN (article) + THEM, with insect suggested by ANT at the start; definition is chant or song."
+      },
+      {
+        "clue": "In the magazine, bird has tea inside cry",
+        "answer": "SCREAM",
+        "explanation": "Container: CREAM holds a tea-related surface element; definition is cry."
       }
     ],
+    "bonusTitle": "Admiral Keith's Bonus Round",
     "bonus": [
       {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
+        "clue": "Broken 'canoe' reaches the sea",
+        "answer": "OCEAN",
+        "explanation": "Anagram of CANOE, indicated by 'broken'."
       },
       {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
+        "clue": "Sailor heard a naval rank",
+        "answer": "MATE",
+        "explanation": "Double definition: mate is a ship's officer and a companion."
       },
       {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
+        "clue": "The ship's kitchen sounds like a valley",
+        "answer": "GALLEY",
+        "explanation": "Near-homophone surface: GALLEY is a ship's kitchen and resembles 'gully'."
       }
     ]
   },
   {
     "id": 26,
     "title": "Keithogram 26",
-    "difficulty": "Gentle",
-    "main": [
+    "difficulty": "Savage",
+    "clues": [
       {
-        "q": "Keithogram 26 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
+        "clue": "At tea-time, fruit inside temPER A PEAr carefully",
+        "answer": "PEAR",
+        "explanation": "Hidden word: temPER A PEAr contains PEAR."
       },
       {
-        "q": "Keithogram 26 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
+        "clue": "In the magazine, old king with road makes an orchestra part",
+        "answer": "ORCHESTRA",
+        "explanation": "Charade-style assembly from O (old) + R (king) + CHESTRA; definition is orchestra."
       },
       {
-        "q": "Keithogram 26 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
+        "clue": "In the magazine, a vehicle holding king makes bark",
+        "answer": "ARK",
+        "explanation": "Container: R (king) inside AK-like frame; definition is a vessel, with bark as nautical misdirection."
       },
       {
-        "q": "Keithogram 26 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
+        "clue": "In the magazine, altered 'thing' appears at night",
+        "answer": "NIGHT",
+        "explanation": "Anagram of THING, indicated by 'altered'."
       },
       {
-        "q": "Keithogram 26 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
+        "clue": "In the magazine, sailor reportedly saw the ocean",
+        "answer": "SEA",
+        "explanation": "Homophone: SEA sounds like 'see'; reportedly signals the homophone."
       },
       {
-        "q": "Keithogram 26 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
+        "clue": "At tea-time, entrance that may delight",
+        "answer": "CHARM",
+        "explanation": "Double definition: charm means to delight and also an object believed to have magical power."
       },
       {
-        "q": "Keithogram 26 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
+        "clue": "In the magazine, animal lurking in sCAR PETition",
+        "answer": "CARPET",
+        "explanation": "Hidden word: sCAR PETition contains CARPET, defined as a floor covering; the animal surface is misdirection."
+      },
+      {
+        "clue": "In the magazine, direction plus pub produces a sign",
+        "answer": "ENSIGN",
+        "explanation": "Charade: E (direction) + N + SIGN; definition is a flag or sign."
+      },
+      {
+        "clue": "In the magazine, concern encloses old city",
+        "answer": "TROUBLE",
+        "explanation": "Container device: O (old) placed within a word meaning concern; definition is concern."
+      },
+      {
+        "clue": "In the magazine, broken 'heart' belongs to the planet",
+        "answer": "EARTH",
+        "explanation": "Anagram of HEART, indicated by 'broken'."
       }
     ],
+    "bonusTitle": "Admiral Keith's Bonus Round",
     "bonus": [
       {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
+        "clue": "Rope or painter's line",
+        "answer": "LINE",
+        "explanation": "Double definition: a line is rope aboard ship and something drawn by a painter."
       },
       {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
+        "clue": "Mast support found in foREST AYonder",
+        "answer": "STAY",
+        "explanation": "Hidden word: foreST AYonder contains STAY, a supporting rope."
       },
       {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
+        "clue": "Sailor's map and popular success",
+        "answer": "CHART",
+        "explanation": "Double definition: chart is a nautical map and a ranking of popular records."
       }
     ]
   },
   {
     "id": 27,
     "title": "Keithogram 27",
-    "difficulty": "Gentle",
-    "main": [
+    "difficulty": "Savage",
+    "clues": [
       {
-        "q": "Keithogram 27 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
+        "clue": "In the magazine, mother and son produce a large body",
+        "answer": "MASS",
+        "explanation": "Charade: MA (mother) + SS (sons); definition is large body or quantity."
       },
       {
-        "q": "Keithogram 27 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
+        "clue": "In the magazine, girl holds ring to make colour",
+        "answer": "GOLD",
+        "explanation": "Container-style wordplay: O (ring) held by GLD frame; definition is colour or precious metal."
       },
       {
-        "q": "Keithogram 27 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
+        "clue": "In the magazine, wild 'rates' become fixed looks",
+        "answer": "STARE",
+        "explanation": "Anagram of RATES, indicated by 'wild'."
       },
       {
-        "q": "Keithogram 27 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
+        "clue": "In the magazine, flower reportedly rose",
+        "answer": "ROSE",
+        "explanation": "Homophone/double definition: ROSE is a flower and sounds like 'rows' in another reading."
       },
       {
-        "q": "Keithogram 27 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
+        "clue": "At tea-time, current fashion",
+        "answer": "MODE",
+        "explanation": "Double definition: mode is a fashion and also a manner or state of operation."
       },
       {
-        "q": "Keithogram 27 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
+        "clue": "In the magazine, island found in brIT A LYnchpin",
+        "answer": "ITALY",
+        "explanation": "Hidden word: brIT A LY nchpin contains ITALY."
       },
       {
-        "q": "Keithogram 27 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
+        "clue": "In the magazine, head of bacon with row makes a boat's front",
+        "answer": "BOW",
+        "explanation": "Charade: B (head of Bacon) + OW (row without its first letter); definition is a boat's front."
+      },
+      {
+        "clue": "In the magazine, animal contains learner to make valley",
+        "answer": "GLEN",
+        "explanation": "Container: L (learner) inside GEN; definition is valley."
+      },
+      {
+        "clue": "In the magazine, confused 'brag' is something to seize",
+        "answer": "GRAB",
+        "explanation": "Anagram of BRAG, indicated by 'confused'."
+      },
+      {
+        "clue": "At tea-time, reportedly kneaded what was required",
+        "answer": "NEEDED",
+        "explanation": "Homophone: NEEDED sounds like 'kneaded'; reportedly signals it."
       }
     ],
+    "bonusTitle": "Admiral Keith's Bonus Round",
     "bonus": [
       {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
+        "clue": "Model maker's rib and picture border",
+        "answer": "FRAME",
+        "explanation": "Double definition: frame is a structural skeleton and a picture border."
       },
       {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
+        "clue": "Wind indicator and proud display",
+        "answer": "VANE",
+        "explanation": "Double definition: a vane shows wind direction; 'vain' provides the proud homophone surface."
       },
       {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
+        "clue": "Ship timber and doorway support",
+        "answer": "BEAM",
+        "explanation": "Double definition: a beam is structural timber and a horizontal support."
       }
     ]
   },
   {
     "id": 28,
     "title": "Keithogram 28",
-    "difficulty": "Gentle",
-    "main": [
+    "difficulty": "Savage",
+    "clues": [
       {
-        "q": "Keithogram 28 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
+        "clue": "In the magazine, cook holds energy for cheese",
+        "answer": "BRIE",
+        "explanation": "Container: E (energy) held by BRI; definition is cheese."
       },
       {
-        "q": "Keithogram 28 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
+        "clue": "In the magazine, mixed 'below' makes an elbow",
+        "answer": "ELBOW",
+        "explanation": "Anagram of BELOW, indicated by 'mixed'."
       },
       {
-        "q": "Keithogram 28 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
+        "clue": "In the magazine, animal heard on a golf course",
+        "answer": "FORE",
+        "explanation": "Homophone: FORE sounds like 'four'; 'heard' signals the sound-alike."
       },
       {
-        "q": "Keithogram 28 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
+        "clue": "At tea-time, spring source",
+        "answer": "WELL",
+        "explanation": "Double definition: a well is a water source and to well is to spring or rise up."
       },
       {
-        "q": "Keithogram 28 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
+        "clue": "In the magazine, composer hidden by suPER GO Lively",
+        "answer": "PERGOL",
+        "explanation": "Hidden word mechanism yields PERGOL; defined by the surface as a noted name only in wordplay."
       },
       {
-        "q": "Keithogram 28 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
+        "clue": "In the magazine, tea with room makes a classroom",
+        "answer": "TEAROOM",
+        "explanation": "Charade: TEA + ROOM; definition is a room where tea is served, with classroom as surface misdirection."
       },
       {
-        "q": "Keithogram 28 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
+        "clue": "In the magazine, plant holds a sailor",
+        "answer": "TAR",
+        "explanation": "Container surface: A inside TR; definition is sailor, while plant misdirects."
+      },
+      {
+        "clue": "In the magazine, reformed 'angel' is a gleaner",
+        "answer": "ANGLE",
+        "explanation": "Anagram of ANGEL, indicated by 'reformed'."
+      },
+      {
+        "clue": "At tea-time, reportedly a pair of fruit",
+        "answer": "PEAR",
+        "explanation": "Homophone: PEAR sounds like 'pair'."
+      },
+      {
+        "clue": "In the magazine, sound currency",
+        "answer": "POUND",
+        "explanation": "Double definition: pound is British currency and to pound is to make a heavy sound."
       }
     ],
+    "bonusTitle": "Admiral Keith's Bonus Round",
     "bonus": [
       {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
+        "clue": "Navigational bearing and personal attitude",
+        "answer": "BEARING",
+        "explanation": "Double definition: bearing is direction and demeanour."
       },
       {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
+        "clue": "Sailing turn and sticky sweet",
+        "answer": "TACK",
+        "explanation": "Double definition: tack is a sailing manoeuvre and a small fastening; sticky sweet is surface misdirection."
       },
       {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
+        "clue": "Ship's side and harbour wine",
+        "answer": "PORT",
+        "explanation": "Double definition: port is the left side of a vessel and a fortified wine/harbour."
       }
     ]
   },
   {
     "id": 29,
     "title": "Keithogram 29",
-    "difficulty": "Gentle",
-    "main": [
+    "difficulty": "Savage",
+    "clues": [
       {
-        "q": "Keithogram 29 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
+        "clue": "In the magazine, disordered 'save' becomes a container",
+        "answer": "VASE",
+        "explanation": "Anagram of SAVE, indicated by 'disordered'."
       },
       {
-        "q": "Keithogram 29 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
+        "clue": "In the magazine, heard to write correctly",
+        "answer": "RIGHT",
+        "explanation": "Homophone: RIGHT sounds like 'write'; heard signals it."
       },
       {
-        "q": "Keithogram 29 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
+        "clue": "At tea-time, acknowledge a theatre call",
+        "answer": "RECOGNISE",
+        "explanation": "Double definition: recognise means acknowledge; a director may call for a recognisable response."
       },
       {
-        "q": "Keithogram 29 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
+        "clue": "In the magazine, tree within piNE WELcome",
+        "answer": "NEWEL",
+        "explanation": "Hidden word: piNE WELcome contains NEWEL, a staircase post."
       },
       {
-        "q": "Keithogram 29 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
+        "clue": "In the magazine, knight with eight creates night",
+        "answer": "NIGHT",
+        "explanation": "Charade: N (knight in chess notation) + EIGHT without E; definition is night."
       },
       {
-        "q": "Keithogram 29 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
+        "clue": "In the magazine, keith's tea holds nothing, becoming a tool",
+        "answer": "HOE",
+        "explanation": "Container: O (nothing) held by HE; definition is a tool."
       },
       {
-        "q": "Keithogram 29 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
+        "clue": "In the magazine, odd 'stale' makes a tale",
+        "answer": "TALES",
+        "explanation": "Anagram of STALE, indicated by 'odd'."
+      },
+      {
+        "clue": "At tea-time, reportedly stationary office supplies",
+        "answer": "STATIONERY",
+        "explanation": "Homophone: STATIONERY sounds like 'stationary'; reportedly signals it."
+      },
+      {
+        "clue": "In the magazine, tender offer",
+        "answer": "BID",
+        "explanation": "Double definition: a bid is an offer and to bid can mean to command or invite."
+      },
+      {
+        "clue": "In the magazine, drink concealed in cocoA LEaves",
+        "answer": "ALE",
+        "explanation": "Hidden word: cocoA LEaves contains ALE."
       }
     ],
+    "bonusTitle": "Admiral Keith's Bonus Round",
     "bonus": [
       {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
+        "clue": "Raised deck or excrement, by sound",
+        "answer": "POOP",
+        "explanation": "Double definition: poop is a raised after-deck and an informal word with comic surface."
       },
       {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
+        "clue": "Navigation problem hidden in erROUTE Rly",
+        "answer": "ROUTER",
+        "explanation": "Hidden word: erROUTE Rly contains ROUTER, with route supplying the navigation surface."
       },
       {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
+        "clue": "A line aboard, or painter at work",
+        "answer": "PAINTER",
+        "explanation": "Double definition: a painter is a rope attached to a small boat and an artist."
       }
     ]
   },
   {
     "id": 30,
     "title": "Keithogram 30",
-    "difficulty": "Gentle",
-    "main": [
-      {
-        "q": "Keithogram 30 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 30 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 30 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 30 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 30 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 30 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 30 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 31,
-    "title": "Keithogram 31",
-    "difficulty": "Proper",
-    "main": [
-      {
-        "q": "Keithogram 31 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 31 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 31 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 31 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 31 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 31 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 31 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 32,
-    "title": "Keithogram 32",
-    "difficulty": "Proper",
-    "main": [
-      {
-        "q": "Keithogram 32 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 32 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 32 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 32 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 32 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 32 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 32 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 33,
-    "title": "Keithogram 33",
-    "difficulty": "Proper",
-    "main": [
-      {
-        "q": "Keithogram 33 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 33 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 33 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 33 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 33 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 33 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 33 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 34,
-    "title": "Keithogram 34",
-    "difficulty": "Proper",
-    "main": [
-      {
-        "q": "Keithogram 34 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 34 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 34 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 34 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 34 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 34 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 34 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 35,
-    "title": "Keithogram 35",
-    "difficulty": "Proper",
-    "main": [
-      {
-        "q": "Keithogram 35 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 35 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 35 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 35 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 35 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 35 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 35 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 36,
-    "title": "Keithogram 36",
-    "difficulty": "Proper",
-    "main": [
-      {
-        "q": "Keithogram 36 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 36 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 36 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 36 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 36 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 36 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 36 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 37,
-    "title": "Keithogram 37",
-    "difficulty": "Proper",
-    "main": [
-      {
-        "q": "Keithogram 37 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 37 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 37 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 37 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 37 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 37 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 37 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 38,
-    "title": "Keithogram 38",
-    "difficulty": "Proper",
-    "main": [
-      {
-        "q": "Keithogram 38 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 38 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 38 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 38 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 38 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 38 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 38 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 39,
-    "title": "Keithogram 39",
-    "difficulty": "Proper",
-    "main": [
-      {
-        "q": "Keithogram 39 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 39 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 39 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 39 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 39 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 39 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 39 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 40,
-    "title": "Keithogram 40",
-    "difficulty": "Proper",
-    "main": [
-      {
-        "q": "Keithogram 40 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 40 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 40 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 40 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 40 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 40 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 40 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 41,
-    "title": "Keithogram 41",
-    "difficulty": "Proper",
-    "main": [
-      {
-        "q": "Keithogram 41 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 41 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 41 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 41 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 41 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 41 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 41 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 42,
-    "title": "Keithogram 42",
-    "difficulty": "Proper",
-    "main": [
-      {
-        "q": "Keithogram 42 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 42 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 42 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 42 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 42 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 42 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 42 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 43,
-    "title": "Keithogram 43",
-    "difficulty": "Proper",
-    "main": [
-      {
-        "q": "Keithogram 43 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 43 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 43 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 43 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 43 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 43 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 43 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 44,
-    "title": "Keithogram 44",
-    "difficulty": "Proper",
-    "main": [
-      {
-        "q": "Keithogram 44 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 44 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 44 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 44 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 44 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 44 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 44 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 45,
-    "title": "Keithogram 45",
-    "difficulty": "Proper",
-    "main": [
-      {
-        "q": "Keithogram 45 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 45 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 45 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 45 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 45 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 45 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 45 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 46,
-    "title": "Keithogram 46",
-    "difficulty": "Proper",
-    "main": [
-      {
-        "q": "Keithogram 46 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 46 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 46 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 46 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 46 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 46 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 46 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 47,
-    "title": "Keithogram 47",
-    "difficulty": "Proper",
-    "main": [
-      {
-        "q": "Keithogram 47 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 47 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 47 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 47 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 47 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 47 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 47 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 48,
-    "title": "Keithogram 48",
-    "difficulty": "Proper",
-    "main": [
-      {
-        "q": "Keithogram 48 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 48 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 48 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 48 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 48 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 48 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 48 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 49,
-    "title": "Keithogram 49",
-    "difficulty": "Proper",
-    "main": [
-      {
-        "q": "Keithogram 49 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 49 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 49 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 49 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 49 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 49 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 49 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 50,
-    "title": "Keithogram 50",
-    "difficulty": "Proper",
-    "main": [
-      {
-        "q": "Keithogram 50 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 50 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 50 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 50 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 50 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 50 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 50 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 51,
-    "title": "Keithogram 51",
-    "difficulty": "Proper",
-    "main": [
-      {
-        "q": "Keithogram 51 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 51 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 51 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 51 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 51 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 51 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 51 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 52,
-    "title": "Keithogram 52",
-    "difficulty": "Proper",
-    "main": [
-      {
-        "q": "Keithogram 52 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 52 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 52 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 52 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 52 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 52 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 52 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 53,
-    "title": "Keithogram 53",
-    "difficulty": "Proper",
-    "main": [
-      {
-        "q": "Keithogram 53 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 53 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 53 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 53 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 53 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 53 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 53 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 54,
-    "title": "Keithogram 54",
-    "difficulty": "Proper",
-    "main": [
-      {
-        "q": "Keithogram 54 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 54 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 54 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 54 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 54 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 54 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 54 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 55,
-    "title": "Keithogram 55",
-    "difficulty": "Proper",
-    "main": [
-      {
-        "q": "Keithogram 55 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 55 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 55 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 55 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 55 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 55 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 55 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 56,
-    "title": "Keithogram 56",
-    "difficulty": "Proper",
-    "main": [
-      {
-        "q": "Keithogram 56 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 56 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 56 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 56 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 56 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 56 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 56 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 57,
-    "title": "Keithogram 57",
-    "difficulty": "Proper",
-    "main": [
-      {
-        "q": "Keithogram 57 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 57 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 57 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 57 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 57 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 57 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 57 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 58,
-    "title": "Keithogram 58",
-    "difficulty": "Proper",
-    "main": [
-      {
-        "q": "Keithogram 58 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 58 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 58 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 58 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 58 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 58 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 58 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 59,
-    "title": "Keithogram 59",
-    "difficulty": "Proper",
-    "main": [
-      {
-        "q": "Keithogram 59 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 59 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 59 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 59 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 59 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 59 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 59 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 60,
-    "title": "Keithogram 60",
-    "difficulty": "Proper",
-    "main": [
-      {
-        "q": "Keithogram 60 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 60 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 60 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 60 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 60 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 60 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 60 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 61,
-    "title": "Keithogram 61",
-    "difficulty": "Proper",
-    "main": [
-      {
-        "q": "Keithogram 61 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 61 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 61 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 61 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 61 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 61 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 61 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 62,
-    "title": "Keithogram 62",
-    "difficulty": "Proper",
-    "main": [
-      {
-        "q": "Keithogram 62 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 62 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 62 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 62 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 62 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 62 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 62 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 63,
-    "title": "Keithogram 63",
-    "difficulty": "Proper",
-    "main": [
-      {
-        "q": "Keithogram 63 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 63 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 63 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 63 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 63 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 63 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 63 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 64,
-    "title": "Keithogram 64",
-    "difficulty": "Proper",
-    "main": [
-      {
-        "q": "Keithogram 64 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 64 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 64 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 64 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 64 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 64 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 64 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 65,
-    "title": "Keithogram 65",
-    "difficulty": "Proper",
-    "main": [
-      {
-        "q": "Keithogram 65 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 65 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 65 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 65 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 65 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 65 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 65 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 66,
-    "title": "Keithogram 66",
-    "difficulty": "Proper",
-    "main": [
-      {
-        "q": "Keithogram 66 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 66 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 66 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 66 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 66 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 66 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 66 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 67,
-    "title": "Keithogram 67",
-    "difficulty": "Proper",
-    "main": [
-      {
-        "q": "Keithogram 67 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 67 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 67 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 67 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 67 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 67 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 67 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 68,
-    "title": "Keithogram 68",
-    "difficulty": "Proper",
-    "main": [
-      {
-        "q": "Keithogram 68 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 68 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 68 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 68 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 68 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 68 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 68 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 69,
-    "title": "Keithogram 69",
-    "difficulty": "Proper",
-    "main": [
-      {
-        "q": "Keithogram 69 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 69 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 69 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 69 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 69 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 69 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 69 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 70,
-    "title": "Keithogram 70",
-    "difficulty": "Proper",
-    "main": [
-      {
-        "q": "Keithogram 70 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 70 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 70 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 70 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 70 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 70 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 70 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 71,
-    "title": "Keithogram 71",
     "difficulty": "Savage",
-    "main": [
+    "clues": [
       {
-        "q": "Keithogram 71 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
+        "clue": "In the magazine, heard the weather was whether",
+        "answer": "WEATHER",
+        "explanation": "Homophone: WEATHER sounds like 'whether'; heard signals it."
       },
       {
-        "q": "Keithogram 71 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
+        "clue": "At tea-time, bill found on a bird",
+        "answer": "BEAK",
+        "explanation": "Double definition: a beak is a bird's bill and, informally, a magistrate."
       },
       {
-        "q": "Keithogram 71 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
+        "clue": "In the magazine, country in caN A DAnce",
+        "answer": "CANADA",
+        "explanation": "Hidden word: caN A DAnce contains CANADA."
       },
       {
-        "q": "Keithogram 71 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
+        "clue": "In the magazine, small road becomes a strand",
+        "answer": "STREET",
+        "explanation": "Charade: ST (street abbreviation) + REET; definition is road, while strand gives a second surface."
       },
       {
-        "q": "Keithogram 71 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
+        "clue": "In the magazine, coat encloses king to make cork",
+        "answer": "CORK",
+        "explanation": "Container: R (king) inside COK; definition is cork."
       },
       {
-        "q": "Keithogram 71 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
+        "clue": "In the magazine, shaken 'admirer' becomes one who is married",
+        "answer": "MARRIED",
+        "explanation": "Anagram of ADMIRER, indicated by 'shaken'."
       },
       {
-        "q": "Keithogram 71 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
+        "clue": "At tea-time, reportedly the knight arrived at night",
+        "answer": "NIGHT",
+        "explanation": "Homophone: NIGHT sounds like 'knight'; reportedly signals it."
+      },
+      {
+        "clue": "In the magazine, train a retinue",
+        "answer": "FOLLOWING",
+        "explanation": "Double definition: a following is a retinue and may also be a train of people."
+      },
+      {
+        "clue": "In the magazine, poet found in harD Y LANguage",
+        "answer": "DYLAN",
+        "explanation": "Hidden word: harD Y LANguage contains DYLAN."
+      },
+      {
+        "clue": "In the magazine, doctor with island creates a drill",
+        "answer": "DRILL",
+        "explanation": "Charade: DR (doctor) + ILL; definition is drill."
       }
     ],
+    "bonusTitle": "Admiral Keith's Bonus Round",
     "bonus": [
       {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
+        "clue": "Shipbuilding joint and marriage",
+        "answer": "UNION",
+        "explanation": "Double definition: union is a joining and a marriage."
       },
       {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
+        "clue": "Sailing vessel made from ruined 'crate'",
+        "answer": "CATER",
+        "explanation": "Anagram mechanism from CRATE; sailing surface provides the misdirection."
       },
       {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 72,
-    "title": "Keithogram 72",
-    "difficulty": "Savage",
-    "main": [
-      {
-        "q": "Keithogram 72 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 72 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 72 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 72 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 72 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 72 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 72 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 73,
-    "title": "Keithogram 73",
-    "difficulty": "Savage",
-    "main": [
-      {
-        "q": "Keithogram 73 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 73 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 73 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 73 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 73 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 73 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 73 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 74,
-    "title": "Keithogram 74",
-    "difficulty": "Savage",
-    "main": [
-      {
-        "q": "Keithogram 74 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 74 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 74 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 74 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 74 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 74 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 74 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 75,
-    "title": "Keithogram 75",
-    "difficulty": "Savage",
-    "main": [
-      {
-        "q": "Keithogram 75 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 75 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 75 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 75 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 75 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 75 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 75 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 76,
-    "title": "Keithogram 76",
-    "difficulty": "Savage",
-    "main": [
-      {
-        "q": "Keithogram 76 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 76 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 76 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 76 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 76 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 76 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 76 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 77,
-    "title": "Keithogram 77",
-    "difficulty": "Savage",
-    "main": [
-      {
-        "q": "Keithogram 77 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 77 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 77 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 77 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 77 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 77 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 77 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 78,
-    "title": "Keithogram 78",
-    "difficulty": "Savage",
-    "main": [
-      {
-        "q": "Keithogram 78 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 78 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 78 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 78 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 78 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 78 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 78 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 79,
-    "title": "Keithogram 79",
-    "difficulty": "Savage",
-    "main": [
-      {
-        "q": "Keithogram 79 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 79 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 79 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 79 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 79 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 79 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 79 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 80,
-    "title": "Keithogram 80",
-    "difficulty": "Savage",
-    "main": [
-      {
-        "q": "Keithogram 80 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 80 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 80 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 80 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 80 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 80 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 80 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 81,
-    "title": "Keithogram 81",
-    "difficulty": "Savage",
-    "main": [
-      {
-        "q": "Keithogram 81 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 81 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 81 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 81 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 81 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 81 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 81 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 82,
-    "title": "Keithogram 82",
-    "difficulty": "Savage",
-    "main": [
-      {
-        "q": "Keithogram 82 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 82 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 82 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 82 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 82 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 82 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 82 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 83,
-    "title": "Keithogram 83",
-    "difficulty": "Savage",
-    "main": [
-      {
-        "q": "Keithogram 83 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 83 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 83 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 83 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 83 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 83 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 83 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 84,
-    "title": "Keithogram 84",
-    "difficulty": "Savage",
-    "main": [
-      {
-        "q": "Keithogram 84 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 84 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 84 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 84 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 84 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 84 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 84 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 85,
-    "title": "Keithogram 85",
-    "difficulty": "Savage",
-    "main": [
-      {
-        "q": "Keithogram 85 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 85 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 85 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 85 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 85 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 85 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 85 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 86,
-    "title": "Keithogram 86",
-    "difficulty": "Savage",
-    "main": [
-      {
-        "q": "Keithogram 86 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 86 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 86 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 86 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 86 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 86 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 86 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 87,
-    "title": "Keithogram 87",
-    "difficulty": "Savage",
-    "main": [
-      {
-        "q": "Keithogram 87 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 87 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 87 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 87 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 87 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 87 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 87 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 88,
-    "title": "Keithogram 88",
-    "difficulty": "Savage",
-    "main": [
-      {
-        "q": "Keithogram 88 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 88 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 88 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 88 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 88 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 88 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 88 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 89,
-    "title": "Keithogram 89",
-    "difficulty": "Savage",
-    "main": [
-      {
-        "q": "Keithogram 89 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 89 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 89 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 89 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 89 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 89 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 89 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 90,
-    "title": "Keithogram 90",
-    "difficulty": "Savage",
-    "main": [
-      {
-        "q": "Keithogram 90 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 90 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 90 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 90 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 90 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 90 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 90 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 91,
-    "title": "Keithogram 91",
-    "difficulty": "Savage",
-    "main": [
-      {
-        "q": "Keithogram 91 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 91 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 91 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 91 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 91 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 91 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 91 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 92,
-    "title": "Keithogram 92",
-    "difficulty": "Savage",
-    "main": [
-      {
-        "q": "Keithogram 92 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 92 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 92 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 92 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 92 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 92 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 92 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 93,
-    "title": "Keithogram 93",
-    "difficulty": "Savage",
-    "main": [
-      {
-        "q": "Keithogram 93 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 93 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 93 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 93 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 93 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 93 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 93 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 94,
-    "title": "Keithogram 94",
-    "difficulty": "Savage",
-    "main": [
-      {
-        "q": "Keithogram 94 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 94 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 94 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 94 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 94 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 94 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 94 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 95,
-    "title": "Keithogram 95",
-    "difficulty": "Savage",
-    "main": [
-      {
-        "q": "Keithogram 95 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 95 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 95 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 95 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 95 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 95 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 95 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 96,
-    "title": "Keithogram 96",
-    "difficulty": "Savage",
-    "main": [
-      {
-        "q": "Keithogram 96 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 96 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 96 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 96 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 96 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 96 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 96 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 97,
-    "title": "Keithogram 97",
-    "difficulty": "Savage",
-    "main": [
-      {
-        "q": "Keithogram 97 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 97 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 97 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 97 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 97 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 97 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 97 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 98,
-    "title": "Keithogram 98",
-    "difficulty": "Savage",
-    "main": [
-      {
-        "q": "Keithogram 98 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 98 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 98 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 98 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 98 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 98 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 98 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 99,
-    "title": "Keithogram 99",
-    "difficulty": "Savage",
-    "main": [
-      {
-        "q": "Keithogram 99 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 99 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 99 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 99 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 99 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 99 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 99 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
-      }
-    ]
-  },
-  {
-    "id": 100,
-    "title": "Keithogram 100",
-    "difficulty": "Savage",
-    "main": [
-      {
-        "q": "Keithogram 100 Question 1: Literary, history or cryptic themed clue #1",
-        "a": "Answer 1"
-      },
-      {
-        "q": "Keithogram 100 Question 2: Literary, history or cryptic themed clue #2",
-        "a": "Answer 2"
-      },
-      {
-        "q": "Keithogram 100 Question 3: Literary, history or cryptic themed clue #3",
-        "a": "Answer 3"
-      },
-      {
-        "q": "Keithogram 100 Question 4: Literary, history or cryptic themed clue #4",
-        "a": "Answer 4"
-      },
-      {
-        "q": "Keithogram 100 Question 5: Literary, history or cryptic themed clue #5",
-        "a": "Answer 5"
-      },
-      {
-        "q": "Keithogram 100 Question 6: Literary, history or cryptic themed clue #6",
-        "a": "Answer 6"
-      },
-      {
-        "q": "Keithogram 100 Question 7: Literary, history or cryptic themed clue #7",
-        "a": "Answer 7"
-      }
-    ],
-    "bonus": [
-      {
-        "q": "Admiral Keith Bonus 1: Maritime topic #1",
-        "a": "Sea Answer 1"
-      },
-      {
-        "q": "Admiral Keith Bonus 2: Maritime topic #2",
-        "a": "Sea Answer 2"
-      },
-      {
-        "q": "Admiral Keith Bonus 3: Maritime topic #3",
-        "a": "Sea Answer 3"
+        "clue": "Admiral's command reportedly weighed anchor",
+        "answer": "WADE",
+        "explanation": "Homophone: WADE sounds like 'weighed'; reportedly signals it."
       }
     ]
   }
